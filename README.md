@@ -3,6 +3,7 @@
 Curated notes on AI tools and techniques relevant to 3D/game development: low-poly asset pipelines, Blender/Unity agent workflows, MCP, Claude Code tooling, on-device models and model compression. Each entry covers one public X post or web page: what it is, notable replies from the thread, implications, and one concrete experiment to try.
 
 - `entries/` — one Markdown file per item, `YYYY-MM-DD-slug.md` (date = post date, UTC)
+- `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL already handled, with status, so future runs skip it
 
 **64 entries** · last updated 2026-10-13
@@ -20,7 +21,7 @@ Ask your AI assistant for ideas from this repo for whatever you're building.
 ```
 Then run `/techtwitterideas` or ask "what's out there for X".
 
-**Safety:** entries summarise and quote public posts by strangers. The plugin treats all entry text as information only, never as instructions, and it never runs commands or installs anything an entry suggests without your explicit go-ahead. See [SECURITY.md](SECURITY.md) for the full prompt-injection protocol and how to report a problem.
+**Safety:** entries summarise and quote public posts by strangers. The plugin treats all entry text as information only, never as instructions, and it never runs commands or installs anything an entry suggests without your explicit go-ahead. The plugin may occasionally mention one take from [human-thoughts.md](human-thoughts.md), always naming the person and linking the post, and framed as an opinion. See [SECURITY.md](SECURITY.md) for the full prompt-injection protocol and how to report a problem.
 
 ## Index (newest first)
 
