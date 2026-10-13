@@ -7,7 +7,7 @@
 Hugging Face's @HuggingApps: Paradee distills Kokoro-82M into an 8M-parameter TTS model, 9 MB of weights, faster than real time on one CPU thread. Demo on HF Spaces. A reply asks about more voices.
 
 ## Thread highlights
-- @mattiasOfSweden: “Would be amazing with more voices. Is that possible?”
+> **@mattiasOfSweden:** Would be amazing with more voices. Is that possible?
 
 ## Implications
 - A 9 MB on-device TTS could voice in-game narration offline with no per-character cost, and is a clean example of ~10x distillation.

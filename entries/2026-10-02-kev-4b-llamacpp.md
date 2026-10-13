@@ -4,7 +4,7 @@
 **Author:** clem 🤗 (@ClementDelangue) · posted 2026-10-02 (UTC) · 1378 likes, 82 replies  
 
 ## What it is
-Hugging Face's @ClementDelangue: decision models now run on device in llama.cpp, e.g. `llama serve -hf ggml-org/Kev-4B-GGUF`. Free, fast, private.
+Hugging Face's @ClementDelangue: decision models now run on device in llama.cpp, with the post showing a one-line llama.cpp serve command for the ggml-org/Kev-4B-GGUF model. Free, fast, private.
 
 ## Thread highlights
 - No notable replies came back from X search for this thread.

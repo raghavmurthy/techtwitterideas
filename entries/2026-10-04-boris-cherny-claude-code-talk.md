@@ -7,7 +7,7 @@
 @txbrraa (Spanish) shares a 28-minute video by the creator of Claude Code (Boris Cherny) on prompting that works: CLAUDE.md files, memory shortcuts, parallel sessions and prompting patterns.
 
 ## Thread highlights
-- @llmworkbench: “CLAUDE.md + memory shortcuts is the boring stuff that actually saves tokens. everyone wants the magic prompt, turns out it's just writing down your conventions once”
+> **@llmworkbench:** CLAUDE.md + memory shortcuts is the boring stuff that actually saves tokens. everyone wants the magic prompt, turns out it's just writing down your conventions once
 
 ## Implications
 - The verification-loop point maps directly to game engines: give the agent a way to see results (play-mode screenshot, console log, test run) before it reports done.

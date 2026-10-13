@@ -7,8 +7,9 @@
 @mxstbr: point Codex at github.com/openai/mcp-extensions to start building a ChatGPT plugin. A reply asks if the manifest is documented yet.
 
 ## Thread highlights
-- @sunils34: “and the actual demo / non ai marketing-y video (sped up) [link]”
-- @vitobotta: “A first-party plugin spec has been needed for ages. Is the manifest documented anywhere yet?”
+> **@sunils34:** and the actual demo / non ai marketing-y video (sped up) [link]
+
+> **@vitobotta:** A first-party plugin spec has been needed for ages. Is the manifest documented anywhere yet?
 
 ## Implications
 - A small ChatGPT plugin can be a cheap discovery channel for a game or app.
