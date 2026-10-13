@@ -70,15 +70,37 @@ def check_file(p, errors, entry):
             else:
                 err(n, "third-party quote outside a blockquote")
 
+def check_thoughts(p, errors):
+    """Each item in human-thoughts.md needs Who/Take/Post/Why lines and blockquotes in the house format."""
+    rel = p.relative_to(ROOT)
+    items = re.split(r"^### ", p.read_text(encoding="utf-8"), flags=re.M)[1:]
+    for it in items:
+        title = it.splitlines()[0]
+        for field in ("**Who:**", "**Take:**", "**Post:** https://x.com/", "**Why it matters for builders:**"):
+            if field not in it: errors.append(f"{rel}: item '{title}' missing {field}")
+        if "**Who:**" in it and not re.search(r"\*\*Who:\*\* [^\n]*\(@\w+\)[^\n]*(X bio|public reporting)", it):
+            errors.append(f"{rel}: item '{title}' needs name, (@handle) and a sourced credential (X bio / public reporting)")
+        if not re.search(r"\*\*Post:\*\* https://x\.com/\w+/status/\d+ · \d{4}-\d\d-\d\d", it):
+            errors.append(f"{rel}: item '{title}' post line needs link and date")
+        for line in it.splitlines():
+            if line.startswith(">") and not re.match(r"^> \*\*@\w+:\*\* ", line):
+                errors.append(f"{rel}: item '{title}' blockquote must start with '> **@handle:** '")
+            if line.strip().startswith(("- @", '"', "“")):
+                errors.append(f"{rel}: item '{title}' quote outside a blockquote")
+
 def main():
     errors = []
     files = sorted((ROOT / "entries").glob("*.md"))
     for p in files: check_file(p, errors, True)
+    ht = ROOT / "human-thoughts.md"
+    if ht.exists():
+        check_file(ht, errors, True)
+        check_thoughts(ht, errors)
     for p in ROOT.rglob("*"):
-        if p.is_file() and ".git" not in p.parts and p.resolve() != SELF and p.suffix in {".md", ".json", ".py", ".txt"} and p.parent.name != "entries":
+        if p.is_file() and ".git" not in p.parts and p.resolve() != SELF and p.suffix in {".md", ".json", ".py", ".txt"} and p.parent.name != "entries" and p.name != "human-thoughts.md":
             check_file(p, errors, False)
     for e in errors: print(e)
-    print(f"checked {len(files)} entries: {'FAIL, ' + str(len(errors)) + ' problem(s)' if errors else 'OK'}")
+    print(f"checked {len(files)} entries + human-thoughts.md: {'FAIL, ' + str(len(errors)) + ' problem(s)' if errors else 'OK'}")
     sys.exit(1 if errors else 0)
 
 if __name__ == "__main__":
