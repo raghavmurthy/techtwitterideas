@@ -1,0 +1,9 @@
+{
+  "name": "techtwitterideas",
+  "version": "0.1.2",
+  "description": "Find ideas, tools and techniques for your project from the techtwitterideas knowledge base, curated from tech Twitter.",
+  "author": {
+    "name": "techtwitterideas contributors"
+  },
+  "license": "MIT"
+}

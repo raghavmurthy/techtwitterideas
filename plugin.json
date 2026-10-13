@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "techtwitterideas contributors"
+  },
+  "description": "Find ideas, tools and techniques for the user's current project from github.com/raghavmurthy/techtwitterideas, curated from tech Twitter.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": "What's out there for my current project? Search techtwitterideas and recommend the best-fitting ideas, tools and techniques.",
+        "developerName": "techtwitterideas",
+        "displayName": "techtwitterideas",
+        "logo": "./assets/icon.svg",
+        "longDescription": "Search the public techtwitterideas knowledge base, understand your project, and rank up to five relevant tools or techniques with source links, practical first steps, caveats, and a combo idea. Recommendations stay grounded in the curated repository.",
+        "shortDescription": "Tech ideas for your project",
+        "brandColor": "#1DA1F2"
+      }
+    }
+  },
+  "name": "techtwitterideas",
+  "version": "0.1.2"
+}
