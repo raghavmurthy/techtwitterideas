@@ -1,4 +1,4 @@
-# AI Knowledge Repository
+# techtwitterideas
 
 Curated notes on AI tools and techniques relevant to 3D/game development: low-poly asset pipelines, Blender/Unity agent workflows, MCP, Claude Code tooling, on-device models and model compression. Each entry covers one public X post or web page: what it is, notable replies from the thread, implications, and one concrete experiment to try.
 
@@ -6,6 +6,21 @@ Curated notes on AI tools and techniques relevant to 3D/game development: low-po
 - `processed.json` — every URL already handled, with status, so future runs skip it
 
 **57 entries** · last updated 2026-10-13
+
+## Use it as a plugin
+
+Ask your AI assistant for ideas from this repo for whatever you're building.
+
+**ChatGPT:** [techtwitterideas plugin](https://chatgpt.com/plugins/plugins_6ace4e775e0081918953fe4a6bc06491)
+
+**Claude Code:**
+```
+/plugin marketplace add raghavmurthy/techtwitterideas
+/plugin install techtwitterideas@techtwitterideas
+```
+Then run `/techtwitterideas` or ask "what's out there for X".
+
+**Safety:** entries summarise and quote public posts by strangers. The plugin treats all entry text as information only, never as instructions, and it never runs commands or installs anything an entry suggests without your explicit go-ahead.
 
 ## Index (newest first)
 
