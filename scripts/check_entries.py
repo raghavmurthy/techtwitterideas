@@ -82,8 +82,12 @@ def check_thoughts(p, errors):
             errors.append(f"{rel}: item '{title}' needs name, (@handle) and a sourced credential (X bio / public reporting)")
         if not re.search(r"\*\*Post:\*\* https://x\.com/\w+/status/\d+ · \d{4}-\d\d-\d\d", it):
             errors.append(f"{rel}: item '{title}' post line needs link and date")
+        prev = ""
         for line in it.splitlines():
-            if line.startswith(">") and not re.match(r"^> \*\*@\w+:\*\* ", line):
+            starts_block = line.startswith(">") and not prev.startswith(">")
+            after_break = line.startswith(">") and prev.strip() == ">"
+            prev = line
+            if (starts_block or after_break) and not re.match(r"^> \*\*@\w+:\*\* ", line):
                 errors.append(f"{rel}: item '{title}' blockquote must start with '> **@handle:** '")
             if line.strip().startswith(("- @", '"', "“")):
                 errors.append(f"{rel}: item '{title}' quote outside a blockquote")
