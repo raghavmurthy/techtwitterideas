@@ -1,0 +1,13 @@
+{
+  "name": "techtwitterideas",
+  "owner": {
+    "name": "techtwitterideas contributors"
+  },
+  "plugins": [
+    {
+      "name": "techtwitterideas",
+      "source": "./",
+      "description": "Find ideas from tech Twitter for your project."
+    }
+  ]
+}
