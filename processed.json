@@ -320,6 +320,61 @@
    "url": "https://x.com/GloriousEggroll/status/210633971414092375",
    "status": "unfetchable",
    "date": "2026-10-05"
+  },
+  {
+   "url": "https://x.com/daniel_mac8/status/2110015197255450694",
+   "status": "entry",
+   "date": "2026-10-13"
+  },
+  {
+   "url": "https://x.com/navuud/status/2109913381780250640",
+   "status": "entry",
+   "date": "2026-10-13"
+  },
+  {
+   "url": "https://x.com/rileybrown/status/2109352621081309215",
+   "status": "entry",
+   "date": "2026-10-11"
+  },
+  {
+   "url": "https://x.com/manoj_ahi/status/2109221583659438401",
+   "status": "entry",
+   "date": "2026-10-11"
+  },
+  {
+   "url": "https://x.com/ishuagra02/status/2104561675412120058",
+   "status": "entry",
+   "date": "2026-09-28"
+  },
+  {
+   "url": "https://x.com/joshtriedcoding/status/2108518140472689055",
+   "status": "entry",
+   "date": "2026-10-09"
+  },
+  {
+   "url": "https://x.com/MaxHirsch13/status/2108623104104976554",
+   "status": "entry",
+   "date": "2026-10-09"
+  },
+  {
+   "url": "https://x.com/nikitabier/status/2109497987055640958",
+   "status": "skipped",
+   "date": "2026-10-12"
+  },
+  {
+   "url": "https://x.com/buildwithsid/status/2108552341939266028",
+   "status": "skipped",
+   "date": "2026-10-09"
+  },
+  {
+   "url": "https://x.com/MatthewBerman/status/2108245653843509415",
+   "status": "skipped",
+   "date": "2026-10-08"
+  },
+  {
+   "url": "https://x.com/rileybrown/status/2108691443900350494",
+   "status": "skipped",
+   "date": "2026-10-09"
   }
  ]
 }
