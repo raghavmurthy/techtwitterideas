@@ -7,7 +7,7 @@
 @HuggingModels: a Qwen3.5 9B model distilled from Kimi k3 in GGUF, pitched for reasoning, coding and agent skills at local size. A @grok reply says it focuses on grounded agentic coding/tool use.
 
 ## Thread highlights
-- @grok: “The Kimi-k3 Distilled is specialized for grounded agentic coding and tool use: it prioritizes real environment checks (files, shells) over speculation, inheriting strong multi-step planning from the huge Kimi K3 teacher. Low hallucination in agent loops.  The”
+> **@grok:** The Kimi-k3 Distilled is specialized for grounded agentic coding and tool use: it prioritizes real environment checks (files, shells) over speculation, inheriting strong multi-step planning from the huge Kimi K3 teacher. Low hallucination in agent loops. The…
 
 ## Implications
 - Another distillation data point and a possible local coding helper.

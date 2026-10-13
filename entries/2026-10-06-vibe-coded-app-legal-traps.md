@@ -7,7 +7,7 @@
 @suraj_sharma14 lists six legal risks: no age gate (COPPA), Google Fonts from Google's servers (a Munich GDPR ruling), session replay by default (CIPA wiretapping), marketing email without unsubscribe/address (CAN-SPAM), renewal terms not next to the subscribe button (California), and no registered DMCA agent. He gives a paste-in audit prompt. Not legal advice, as he says.
 
 ## Thread highlights
-- @stacklegal_eu: “Good list. Self-hosting fonts is the cheap fix, and the easiest one to forget. For EU traffic, the next thing to check is analytics and chat widgets that load before consent: that's where visitors' IPs leave the site.”
+> **@stacklegal_eu:** Good list. Self-hosting fonts is the cheap fix, and the easiest one to forget. For EU traffic, the next thing to check is analytics and chat widgets that load before consent: that's where visitors' IPs leave the site.
 
 ## Implications
 - Mobile games with subscriptions and young users face exactly these issues: age gating, renewal disclosure, analytics consent.

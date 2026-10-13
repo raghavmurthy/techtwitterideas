@@ -7,7 +7,7 @@
 @Voxyz_ai shares an AGENTS.md to fix three habits of Codex and Claude Code: backward compatibility for a project with no users, never deleting obsolete code/docs, and piling on tests for trivial changes. Core rule: with no real users, skip compatibility/migrations and write the simplest code that works; loop docs → tests → smallest implementation → clean up.
 
 ## Thread highlights
-- @KANSHAOUS: “backward compatible for zero users is so real lol”
+> **@KANSHAOUS:** backward compatible for zero users is so real lol
 
 ## Implications
 - Pre-launch game projects get legacy shims and migrations from agents that nobody needs.

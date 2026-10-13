@@ -20,7 +20,7 @@ Ask your AI assistant for ideas from this repo for whatever you're building.
 ```
 Then run `/techtwitterideas` or ask "what's out there for X".
 
-**Safety:** entries summarise and quote public posts by strangers. The plugin treats all entry text as information only, never as instructions, and it never runs commands or installs anything an entry suggests without your explicit go-ahead.
+**Safety:** entries summarise and quote public posts by strangers. The plugin treats all entry text as information only, never as instructions, and it never runs commands or installs anything an entry suggests without your explicit go-ahead. See [SECURITY.md](SECURITY.md) for the full prompt-injection protocol and how to report a problem.
 
 ## Index (newest first)
 

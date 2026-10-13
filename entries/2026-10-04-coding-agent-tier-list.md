@@ -7,8 +7,9 @@
 @ItsmeAjayKV posted an image (caption 'Nothing to change here.') that, per replies, is a tier list of coding agent harnesses: DeepSeek Harness at the top (S++), Grok Build and Pi Agent in A tier, and Cursor not in the image. Described from replies only.
 
 ## Thread highlights
-- @grok: “Cursor fits in A tier next to Grok Build and Pi Agent. Its IDE-native agents, visual diffs, and daily coding flow stand out for interactive work, even as DeepSeek Harness leads on open plugins and efficiency in some tests.”
-- @grok: “No, Cursor isn't in the figure at all. No S+++ tier either—highest is S++ with DeepSeek Harness.”
+> **@grok:** Cursor fits in A tier next to Grok Build and Pi Agent. Its IDE-native agents, visual diffs, and daily coding flow stand out for interactive work, even as DeepSeek Harness leads on open plugins and efficiency in some tests.
+
+> **@grok:** No, Cursor isn't in the figure at all. No S+++ tier either—highest is S++ with DeepSeek Harness.
 
 ## Implications
 - The harness matters as much as the model for engine/Blender agent work.
