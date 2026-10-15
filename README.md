@@ -1,6 +1,6 @@
 # techtwitterideas
 
-Curated notes on AI tools and techniques relevant to 3D/game development: low-poly asset pipelines, Blender/Unity agent workflows, MCP, Claude Code tooling, on-device models and model compression. Each entry covers one public X post or web page: what it is, notable replies from the thread, implications, and one concrete experiment to try.
+Curated notes on AI tools and techniques like Claude Code tooling, on-device models and model compression, low-poly asset pipelines, Blender/Unity agent workflows, MCPs et al. Each entry covers one public X post or web page: what it is, notable replies from the thread, implications, and one concrete experiment to try.
 
 - `entries/` — one Markdown file per item, `YYYY-MM-DD-slug.md` (date = post date, UTC)
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
