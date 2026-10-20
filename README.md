@@ -6,7 +6,7 @@ Curated notes on AI tools and techniques like Claude Code tooling, on-device mod
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL already handled, with status, so future runs skip it
 
-**88 entries** · last updated 2026-10-20
+**89 entries** · last updated 2026-10-20
 
 ## Use it as a plugin
 
@@ -27,6 +27,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-10-19 | [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md) | `3d` `cad` `world-models` `models` `asset-pipeline` `research` | Buildable part-by-part CAD history instead of a mesh (claims self-reported) |
 | 2026-10-18 | [10 resources for AI-assisted 3D and animated web design](entries/2026-10-18-web-3d-design-resource-list.md) | `web-design` `threejs` `motion` `resources` | Reference set for 3D/motion web pages |
 | 2026-10-18 | [Checklist for fast App Store approval](entries/2026-10-18-apple-fast-approval-checklist.md) | `app-store` `ios` `launch` `subscriptions` | Concrete App Review checklist |
 | 2026-10-17 | [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md) | `content` `video` `audio` `open-source` | Open-source stack for devlogs and trailers |
@@ -298,6 +299,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Launch video from HTML + GSAP rendered by HyperFrames](entries/2026-10-08-hyperframes-launch-video.md)
 - [20 repos for agent-made motion design (claude-motion, HyperFrames, Remotion, GSAP)](entries/2026-10-08-20-motion-design-repos.md)
 ### `3d`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md)
 - [The Little Prince as a 3D story game in 16 days with Opus, Tripo and Blender](entries/2026-10-13-little-prince-3d-story-game.md)
 - [image-blaster: photo to explorable 3D world (repost of a May demo)](entries/2026-10-03-image-blaster-photo-to-3d-world.md)
@@ -314,6 +316,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md)
 - [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md)
 ### `asset-pipeline`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
@@ -405,6 +408,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 - [Google Play lets you install private vibe-coded apps](entries/2026-10-13-google-play-private-vibe-coded-apps.md)
 ### `research`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 ### `security`
@@ -503,6 +507,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `model-porting`
 - [ruNNtime: porting new models to the browser with Claude](entries/2026-10-07-ruNNtime-browser-models.md)
 ### `models`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Hugging Bay: searchable model hub with checksums, torrents and MCP](entries/2026-10-05-hugging-bay-model-hub.md)
 ### `monetization`
 - [How Block Blast! designs losses around ads](entries/2026-10-15-block-blast-ad-design-breakdown.md)
@@ -574,3 +579,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [image-blaster: photo to explorable 3D world (repost of a May demo)](entries/2026-10-03-image-blaster-photo-to-3d-world.md)
 ### `writing`
 - [anti-slop: filters generic AI-generated UI, text and code](entries/2026-10-09-anti-slop-filter.md)
+### `cad`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
+### `world-models`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
