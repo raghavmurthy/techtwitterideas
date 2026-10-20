@@ -5,6 +5,8 @@
 ## What it is
 A GitHub repo of skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing and showcase videos. When fetched it had 0 stars, so it is early and unproven.
 
+**Follow-up demo (2026-10-15):** the project's X account (@universalmodhq) posted a step-by-step video of getting a rigged Thanos character into GTA V with the tool: https://x.com/universalmodhq/status/2110646373733560679 (202 likes, 2 replies, no substantive replies).
+
 ## Thread highlights
 - Not an X post; no thread.
 

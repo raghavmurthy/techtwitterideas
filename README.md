@@ -6,7 +6,7 @@ Curated notes on AI tools and techniques like Claude Code tooling, on-device mod
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL already handled, with status, so future runs skip it
 
-**89 entries** · last updated 2026-10-20
+**95 entries** · last updated 2026-10-20
 
 ## Use it as a plugin
 
@@ -28,8 +28,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
 | 2026-10-19 | [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md) | `3d` `cad` `world-models` `models` `asset-pipeline` `research` | Buildable part-by-part CAD history instead of a mesh (claims self-reported) |
+| 2026-10-19 | [Skill Issue: agent skills ranked by what people actually use](entries/2026-10-19-skill-issue-ranked-agent-skills.md) | `skills` `resources` `design` `agents` | See which agent skills are widely used before writing your own |
 | 2026-10-18 | [10 resources for AI-assisted 3D and animated web design](entries/2026-10-18-web-3d-design-resource-list.md) | `web-design` `threejs` `motion` `resources` | Reference set for 3D/motion web pages |
 | 2026-10-18 | [Checklist for fast App Store approval](entries/2026-10-18-apple-fast-approval-checklist.md) | `app-store` `ios` `launch` `subscriptions` | Concrete App Review checklist |
+| 2026-10-18 | [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md) | `audio` `sfx` `motion-graphics` `game-dev` `mcp` `compression` `open-source` | Procedural, frame-synced SFX for trailers and game UI |
 | 2026-10-17 | [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md) | `content` `video` `audio` `open-source` | Open-source stack for devlogs and trailers |
 | 2026-10-17 | [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md) | `3d` `asset-pipeline` `shaders` `concept-art` `claude` | Turn concept art into a walkable 3D scene |
 | 2026-10-17 | [Claude Code replaces an ad-heavy Android TV launcher](entries/2026-10-17-claude-code-android-tv-launcher.md) | `claude-code` `android` `devices` `agents` | Agent-driven device setup, reversible |
@@ -42,6 +44,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 | 2026-10-16 | [A 25-minute animated episode written entirely as code by Opus](entries/2026-10-16-claude-coded-anime-episode.md) | `animation` `claude` `threejs` `cost` | Cost benchmark for code-made animation |
 | 2026-10-16 | [App Store Review Guideline 2.5.19 and remote config / A/B testing](entries/2026-10-16-app-store-guideline-2-5-19.md) | `app-store` `ios` `ab-testing` `compliance` | Possible impact on paywall A/B tests |
 | 2026-10-15 | [How Block Blast! designs losses around ads](entries/2026-10-15-block-blast-ad-design-breakdown.md) | `game-design` `monetization` `mobile` `ads` | Casual game monetisation teardown |
+| 2026-10-15 | [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md) | `blender` `agent-tooling` `agents` `cli` `open-source` `asset-pipeline` `compression` | Scriptable Blender/GIMP for agent asset pipelines |
+| 2026-10-15 | [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md) | `checklist` `launch` `security` `vibe-coding` `ops` `testing` | Pre-launch audit list for AI-built apps |
 | 2026-10-14 | [How Railway grew via AI recommendations (AI SEO)](entries/2026-10-14-railway-ai-seo-playbook.md) | `seo` `ai-search` `docs` `growth` | Docs for agents as a growth channel |
 | 2026-10-14 | [Claude Code idle compaction saves uncached-input cost](entries/2026-10-14-claude-code-idle-compaction.md) | `claude-code` `context` `cost` | Cheaper idle sessions, at the cost of detail |
 | 2026-10-13 | [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md) | `claude-code` `research` `video` `skills` | Agent research feeding video edits |
@@ -53,6 +57,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 | 2026-10-13 | [Google Play lets you install private vibe-coded apps](entries/2026-10-13-google-play-private-vibe-coded-apps.md) | `android` `google-play` `distribution` `prototyping` | Easier private Android installs, new game discovery |
 | 2026-10-13 | [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md) | `codex` `memory` `config` `agent-workflow` | Possibly better long-term agent memory via config |
 | 2026-10-13 | [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md) | `marketing` `app-store` `ads` `ios` | Step-by-step Apple Search Ads start |
+| 2026-10-13 | [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md) | `prompting` `skills` `agent-workflow` `claude` `quality` | A method for asking models for expert-level work |
+| 2026-10-13 | [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md) | `browser` `mcp` `agents` `agent-tooling` `security` `open-source` | Agents on no-API web tools, with real-session risks |
 | 2026-10-12 | [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md) | `performance` `mobile` `checklist` | Performance checklist |
 | 2026-10-12 | [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md) | `ads` `subscriptions` `analytics` | Feed ad algorithms only the events you want |
 | 2026-10-11 | [OpenDataLoader: CPU-only PDF → Markdown at ~100 pages/s (Chinese post)](entries/2026-10-11-opendataloader-pdf.md) | `pdf` `docs` `context` `tools` | Fast PDF to Markdown for agent context |
@@ -134,6 +140,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 ### `claude`
+- [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
 - [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md)
 - [A 25-minute animated episode written entirely as code by Opus](entries/2026-10-16-claude-coded-anime-episode.md)
 - [The Little Prince as a 3D story game in 16 days with Opus, Tripo and Blender](entries/2026-10-13-little-prince-3d-story-game.md)
@@ -156,6 +163,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 ### `mcp`
+- [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [Build ChatGPT plugins: point Codex at openai/mcp-extensions](entries/2026-10-08-openai-mcp-extensions-chatgpt-plugins.md)
 - [Hugging Bay: searchable model hub with checksums, torrents and MCP](entries/2026-10-05-hugging-bay-model-hub.md)
 - [GPT-6.1 Sol + Blender MCP: multi-view photos to textured model in <10 min](entries/2026-10-03-gpt-sol-blender-mcp-photos-to-3d.md)
@@ -165,6 +174,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `skills`
+- [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
+- [Skill Issue: agent skills ranked by what people actually use](entries/2026-10-19-skill-issue-ranked-agent-skills.md)
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 - [break-ui skill throws worst-case realistic data at a UI](entries/2026-10-09-break-ui-skill-praise.md)
@@ -174,6 +185,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Emil Kowalski skills: /mobile-native and /break-ui](entries/2026-10-04-emil-kowalski-mobile-native-break-ui.md)
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 ### `agents`
+- [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
+- [Skill Issue: agent skills ranked by what people actually use](entries/2026-10-19-skill-issue-ranked-agent-skills.md)
 - [Claude Code replaces an ad-heavy Android TV launcher](entries/2026-10-17-claude-code-android-tv-launcher.md)
 - [Lessons from a vibe-coded iOS app with 4K Reddit-only downloads](entries/2026-10-16-reddit-4k-downloads-ios-app.md)
 - [Anthropic's Scion: source control rebuilt for agent-scale merges](entries/2026-10-13-scion-agent-scale-source-control.md)
@@ -211,12 +225,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Avoiding Apple rejections for 'spam/slop' apps](entries/2026-10-09-apple-app-review-slop-rejections.md)
 ### `blender`
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [The Little Prince as a 3D story game in 16 days with Opus, Tripo and Blender](entries/2026-10-13-little-prince-3d-story-game.md)
 - [GPT-6.1 Sol + Blender MCP: multi-view photos to textured model in <10 min](entries/2026-10-03-gpt-sol-blender-mcp-photos-to-3d.md)
 - [Opus 5.5 builds a Three.js night-city game with Blender + image-gen](entries/2026-10-02-opus-threejs-city-game.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `launch`
+- [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Checklist for fast App Store approval](entries/2026-10-18-apple-fast-approval-checklist.md)
 - [Lessons from a vibe-coded iOS app with 4K Reddit-only downloads](entries/2026-10-16-reddit-4k-downloads-ios-app.md)
 - [20-item pre-launch prompt for vibe-coded apps](entries/2026-10-09-pre-launch-20-checks.md)
@@ -234,11 +250,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Primitives → skills → feature loop against AI slop](entries/2026-10-08-primitives-skills-loop.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `audio`
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md)
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [Sound-design prompt for Opus/Fable motion design](entries/2026-10-09-opus-sound-design-prompt.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `compression`
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [Qwen3.5 9B distilled from Kimi k3 (GGUF)](entries/2026-10-08-qwen3-5-9b-kimi-distill.md)
 - [NeuDecide: 43 MB speech-to-tool-call model on one CPU thread](entries/2026-10-08-neudecide-audio-tool-calls.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
@@ -249,6 +268,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Leviathan: agents search huge databases in ~436 tokens](entries/2026-10-05-leviathan-agent-indexer.md)
 - [Matt Pocock: /retro your agent sessions to make the repo easier to navigate](entries/2026-10-02-retro-repo-navigability.md)
 ### `design`
+- [Skill Issue: agent skills ranked by what people actually use](entries/2026-10-19-skill-issue-ranked-agent-skills.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [Ask: a dataset of 1-10k beautiful landing pages](entries/2026-10-05-landing-page-dataset-ask.md)
 - [Designeer: curated hub of design galleries, components, AI tools and MCP servers](entries/2026-10-03-designeer-design-resource-hub.md)
@@ -259,6 +279,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `game-dev`
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 - [The Little Prince as a 3D story game in 16 days with Opus, Tripo and Blender](entries/2026-10-13-little-prince-3d-story-game.md)
 - [Opus 5.5 builds a Three.js night-city game with Blender + image-gen](entries/2026-10-02-opus-threejs-city-game.md)
@@ -269,6 +290,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [FreeVideo: local video generation on 8GB VRAM](entries/2026-10-02-freevideo-local-video-gen.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 ### `motion-graphics`
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [Sound-design prompt for Opus/Fable motion design](entries/2026-10-09-opus-sound-design-prompt.md)
 - [Launch video from HTML + GSAP rendered by HyperFrames](entries/2026-10-08-hyperframes-launch-video.md)
 - [20 repos for agent-made motion design (claude-motion, HyperFrames, Remotion, GSAP)](entries/2026-10-08-20-motion-design-repos.md)
@@ -279,6 +301,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 - [What AI coding subscriptions are worth at API prices](entries/2026-10-01-subscription-vs-api-cost.md)
 ### `testing`
+- [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
 - [break-ui skill throws worst-case realistic data at a UI](entries/2026-10-09-break-ui-skill-praise.md)
 - [baguette: browser-based iOS simulators that agents can drive](entries/2026-10-08-baguette-ios-sim-agents.md)
@@ -312,15 +335,18 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
 - [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md)
 - [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md)
 ### `asset-pipeline`
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 ### `checklist`
+- [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 - [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md)
 - [20-item pre-launch prompt for vibe-coded apps](entries/2026-10-09-pre-launch-20-checks.md)
@@ -341,6 +367,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Mixar: a team of AI agents that model, texture and light a 3D scene](entries/2026-10-01-mixar-multi-agent-3d.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `open-source`
+- [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md)
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
@@ -349,6 +378,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Sound-design prompt for Opus/Fable motion design](entries/2026-10-09-opus-sound-design-prompt.md)
 - [475 Claude Opus 5.5 demo videos with prompts in one repo](entries/2026-10-03-475-opus-video-demos-repo.md)
 ### `resources`
+- [Skill Issue: agent skills ranked by what people actually use](entries/2026-10-19-skill-issue-ranked-agent-skills.md)
 - [10 resources for AI-assisted 3D and animated web design](entries/2026-10-18-web-3d-design-resource-list.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [Designeer: curated hub of design galleries, components, AI tools and MCP servers](entries/2026-10-03-designeer-design-resource-hub.md)
@@ -357,6 +387,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Submit sitemaps to Bing Webmaster Tools and IndexNow](entries/2026-10-11-bing-indexnow-sitemap.md)
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 ### `agent-tooling`
+- [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [Leviathan: agents search huge databases in ~436 tokens](entries/2026-10-05-leviathan-agent-indexer.md)
 - [Termium: Chromium inside the terminal (OSS, MIT)](entries/2026-09-30-termium-chromium-in-terminal.md)
 ### `analytics`
@@ -369,6 +401,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [A 25-minute animated episode written entirely as code by Opus](entries/2026-10-16-claude-coded-anime-episode.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 ### `browser`
+- [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
 - [ruNNtime: porting new models to the browser with Claude](entries/2026-10-07-ruNNtime-browser-models.md)
 - [Termium: Chromium inside the terminal (OSS, MIT)](entries/2026-09-30-termium-chromium-in-terminal.md)
 ### `chatgpt-plugin`
@@ -412,6 +445,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 ### `security`
+- [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
+- [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
 - [20-item pre-launch prompt for vibe-coded apps](entries/2026-10-09-pre-launch-20-checks.md)
 ### `subagents`
@@ -516,6 +551,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `openai`
 - [What AI coding subscriptions are worth at API prices](entries/2026-10-01-subscription-vs-api-cost.md)
 ### `ops`
+- [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Codex usage resets can only be used near the limit](entries/2026-10-04-codex-reset-caveat.md)
 ### `orchestration`
 - [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md)
@@ -528,8 +564,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `promo`
 - [Claude app: design/deck/doc work uses 50% less usage for two weeks](entries/2026-10-01-claude-design-usage-promo.md)
 ### `prompting`
+- [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `quality`
+- [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
 - [anti-slop: filters generic AI-generated UI, text and code](entries/2026-10-09-anti-slop-filter.md)
 ### `retrieval`
 - [Leviathan: agents search huge databases in ~436 tokens](entries/2026-10-05-leviathan-agent-indexer.md)
@@ -564,6 +602,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `vector`
 - [ChatGPT plugin that vectorizes logos in chat](entries/2026-10-01-chatgpt-logo-vectorize-plugin.md)
 ### `vibe-coding`
+- [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - ['I may have vibe coded the best thing ever' (video only)](entries/2026-10-03-armand-vibe-coded-setup.md)
 ### `video-gen`
 - [FreeVideo: local video generation on 8GB VRAM](entries/2026-10-02-freevideo-local-video-gen.md)
@@ -583,3 +622,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 ### `world-models`
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
+### `sfx`
+- [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
+### `cli`
+- [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
