@@ -6,7 +6,7 @@ Curated notes on AI tools and techniques like Claude Code tooling, on-device mod
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL already handled, with status, so future runs skip it
 
-**64 entries** · last updated 2026-10-13
+**65 entries** · last updated 2026-10-20
 
 ## Use it as a plugin
 
@@ -27,6 +27,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-10-19 | [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md) | `3d` `cad` `world-models` `models` `asset-pipeline` `research` | Buildable part-by-part CAD history instead of a mesh (claims self-reported) |
 | 2026-10-13 | [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md) | `agent-workflow` `orchestration` `code-review` `ci` | Blueprint for running many agents with review and auto-revert |
 | 2026-10-13 | [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md) | `codex` `memory` `config` `agent-workflow` | Possibly better long-term agent memory via config |
 | 2026-10-12 | [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md) | `performance` `mobile` `checklist` | Performance checklist |
@@ -236,6 +237,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Primitives → skills → feature loop against AI slop](entries/2026-10-08-primitives-skills-loop.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `asset-pipeline`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 ### `browser`
@@ -293,6 +295,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Opus 5.5 edits video in chunks for fast re-renders](entries/2026-10-07-opus-chunked-video-editing.md)
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 ### `3d`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [image-blaster: photo to explorable 3D world (repost of a May demo)](entries/2026-10-03-image-blaster-photo-to-3d-world.md)
 ### `animation`
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
@@ -367,6 +370,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `model-porting`
 - [ruNNtime: porting new models to the browser with Claude](entries/2026-10-07-ruNNtime-browser-models.md)
 ### `models`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Hugging Bay: searchable model hub with checksums, torrents and MCP](entries/2026-10-05-hugging-bay-model-hub.md)
 ### `openai`
 - [What AI coding subscriptions are worth at API prices](entries/2026-10-01-subscription-vs-api-cost.md)
@@ -389,6 +393,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `quality`
 - [anti-slop: filters generic AI-generated UI, text and code](entries/2026-10-09-anti-slop-filter.md)
 ### `research`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 ### `resources`
 - [Designeer: curated hub of design galleries, components, AI tools and MCP servers](entries/2026-10-03-designeer-design-resource-hub.md)
@@ -430,3 +435,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [image-blaster: photo to explorable 3D world (repost of a May demo)](entries/2026-10-03-image-blaster-photo-to-3d-world.md)
 ### `writing`
 - [anti-slop: filters generic AI-generated UI, text and code](entries/2026-10-09-anti-slop-filter.md)
+### `cad`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
+### `world-models`
+- [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
