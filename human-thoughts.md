@@ -64,6 +64,24 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/codewithantonio/status/2108135703670325427 · 2026-10-08 (UTC)  
 **Why it matters for builders:** Giving agents a project's own building blocks keeps generated code consistent instead of reinvented each time.
 
+### Delete most code comments: agents copy them
+**Who:** lauren (@poteto), React compiler core team, previously at Cursor, Meta and Netflix, per her X bio.  
+**Take:** She argues teams should ban and delete most, if not all, code comments. Her reasoning: agents love copying what already exists, so a harmless-looking comment about a temporary workaround acts like a virus, spreading as agents reuse it as a shortcut until the codebase is overrun with hacks and stale comments ("just one more workaround"). Her remedy is a "weedkiller": her pstack plugin's no-comments skill finds useless comments, keeps the ones that should exist (like explaining a browser quirk), and works out how to fix the underlying workaround from first principles. She closes by suggesting an agent plan which workarounds should be refactored and which can simply be deleted (her exact prompt isn't reproduced here).
+
+> **@poteto:** agents love copying what already exists. a seemingly harmless comment explaining some temporary workaround is one of the worst viruses you can have in your codebase.
+
+**Post:** https://x.com/poteto/status/2110149626133438732 · 2026-10-13 (UTC)  
+**Why it matters for builders:** In agent-heavy repos, every workaround left in place gets copied; fixing the cause beats documenting it.
+
+### Chat isn't the final form of agent UI
+**Who:** Soleio (@soleio), designer, inventor and angel investor, host of First of Kind, per his X bio.  
+**Take:** Answering @poteto's question of whether chat is the final form of agent UI, he says no. His argument: once people talk to agents by voice, the screen no longer has to hold the conversation. Instead the screen can show the work itself, with the agent narrating and visualising things in real time, like two people talking over one shared screen. In that view, chat interfaces are just transcripts.
+
+> **@soleio:** Once we talk to agents by voice, the screen no longer has to hold the conversation. The screen can instead show the work itself, with the agent narrating and visualizing things in real time, like two people talking over one shared screen. Chat UIs are just transcripts.
+
+**Post:** https://x.com/soleio/status/2111330755657994334 · 2026-10-17 (UTC)  
+**Why it matters for builders:** Agent tools for 3D/game work may be better as a shared viewport the agent narrates than as a chat log.
+
 ## Cost and tooling
 
 ### Subscriptions vs API pricing
@@ -102,3 +120,14 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 **Post:** https://x.com/MaxHirsch13/status/2108623104104976554 · 2026-10-09 (UTC)  
 **Why it matters for builders:** Small AI-assisted mobile games should keep design files and commit history ready for App Review.
+
+### The next wave of founders will be marketers
+**Who:** Hector (@hectorserrranoo), marketing hire #2 at Wispr Flow, per his X bio.  
+**Take:** He predicts the next wave of founders will all be marketers. His reasoning: it's easier for a creative person to learn to build than for an engineer to learn how to generate attention, and the gap is widening because building keeps getting easier while marketing keeps getting harder. The post includes an image that wasn't read here.
+
+> **@hectorserrranoo:** it's easier for a creative to learn to build than for an engineer to learn how to generate attention
+>
+> **@hectorserrranoo:** building keeps getting easier and marketing keeps getting harder
+
+**Post:** https://x.com/hectorserrranoo/status/2109314260786667864 · 2026-10-11 (UTC)  
+**Why it matters for builders:** For small game teams, distribution skills may now matter more than extra engineering capacity.
