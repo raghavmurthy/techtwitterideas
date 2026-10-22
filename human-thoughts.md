@@ -84,6 +84,17 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 ## Cost and tooling
 
+### Agents can now out-build big rewrite teams
+**Who:** Peter Steinberger (@steipete), creator of OpenClaw who now works with OpenAI, per his X bio, and founder of PSPDFKit, per public reporting.  
+**Take:** He says he switched to tsrs, VoidZero's new Rust port of the TypeScript compiler, over a weekend, that it was a drop-in replacement, and that it runs about 5x faster for what he calls "OC" (presumably OpenClaw). His broader point is a contrast: it took Microsoft a dedicated team and two years to rewrite the TypeScript compiler in Go, while now "you can just let an agent rip" and get something significantly better within weeks. The post he quotes is VoidZero's announcement, which says tsrs is built in close collaboration with the TypeScript team (not a fork), claims up to 8x the speed of TypeScript 7.0 with about 70% less memory, and runs in WASM. He doesn't add more in the thread. Replies push back that a Rust port may build directly on Microsoft's two years of work, and that "drop-in" should be checked by diffing its errors against the official compiler across a whole codebase, since tricky generics are where ports diverge.
+
+> **@steipete:** Moved to tsrs over the weekend. Drop-in replacement. Around 5x faster for OC.
+>
+> **@steipete:** Kind of amazing that it took Microsoft a team and two years to rewrite the TS compiler in go, and now you can just let an agent rip and get sth significantly better within weeks.
+
+**Post:** https://x.com/steipete/status/2112571535731106013 · 2026-10-20 (UTC)  
+**Why it matters for builders:** Large rewrites with a strong existing test suite (compilers, importers, format converters) are where agents may now beat a team on speed, but the test suite is what makes the result trustworthy.
+
 ### Subscriptions vs API pricing
 **Who:** Paweł Huryn (@PawelHuryn), AI product manager who writes a newsletter with 130K+ subscribers, per his X bio.  
 **Take:** He starts from the common claim that subscriptions are cheaper than APIs, and set out to measure it. He burned part of several plans' weekly allowances on purpose, logged every model call and priced each at the vendor's public API list price. He lists each vendor's stated tiers. OpenAI's allowance is proportional to price (Plus 1x, Pro 100 at 5x tested, Pro 200 at 10x, just down from 20x). Claude's Max 20x gives 20x the Pro allowance rather than 10x, so it's subsidised twice as much (tested). Meta's Muse Code tiers give 5x and 20x rather than 3x and 10x. In part 2 he ranks the cheapest western options: Grok via SuperGrok first, then Muse Code if you share data with Meta (Contributor), then OpenAI, saying GPT-6.1 Sol (medium) is 13x cheaper (the text then cuts to an image). In part 3 he notes Grok Build and Muse Code have no native GUI and points to the VS Code extension he built (32K installs) that supports them plus Codex and Claude Code. In part 4 he says small Grok and Muse plans ($30 SuperGrok, $15 Muse), unlike small OpenAI or Anthropic plans, are enough for real agentic work. In replies he says he measured Claude Max 20x at about 45.3x the API value on his own machine, that lower Claude tiers weren't measured (Max 5x × 4 doesn't equal 20x), and that GPT-6.1 Sol makes up for its lower multiplier (~10.25) by solving problems in fewer turns with fewer tokens.
@@ -98,6 +109,19 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Why it matters for builders:** Measure your own usage before picking plans; the cheapest option depends on task mix.
 
 ## Growth and launch
+
+### ChatGPT plugins are an early app-store moment
+**Who:** Corey Ganim (@coreyganim), who helps non-technical entrepreneurs use AI and previously founded a $16M e-commerce startup, per his X bio.  
+**Take:** He argues ChatGPT plugins are "the App Store in 2008 all over again": ChatGPT has about 900M weekly users, anyone can now publish a plugin, and almost nobody is building there yet. He defines a plugin as a skill (how to do the job) plus a connector (access to your apps), and describes the funnel as: a user asks ChatGPT for help, it suggests your plugin, they use it, then they buy. His playbook is a free plugin with a paid upgrade, and he lists six business types it suits: bookkeepers (categorise a month of transactions free, upsell done-for-you books), real estate agents (listing copy and comps that funnel to the brokerage), fitness coaches (a free week of workouts, upsell 1:1 coaching), plumbers and HVAC (a diagnosis plugin that books the service call), agencies (an ads or SEO audit that ends in a strategy call) and consultants (turn an intake questionnaire into a free first diagnosis). He says now is the time because publishing just opened to everyone, and the next step is ChatGPT recommending plugins on its own, which he says is already starting, so being early in a niche is a big advantage. The post he quotes, from another founder, gives the build steps: an MCP server as the product surface, tool names and descriptions written for the model, UI added later, a privacy policy and test cases for review, and billing kept on your own backend.
+
+> **@coreyganim:** This is the App Store in 2008 all over again...
+>
+> **@coreyganim:** A plugin is just two things in one box: a skill (how to do the job) + a connector (access to your apps). Someone asks ChatGPT for help, it suggests your plugin, they use it, then they buy.
+>
+> **@coreyganim:** The next step is ChatGPT recommending plugins on its own (it's already starting to do this), and being early in your niche is a massive competitive advantage.
+
+**Post:** https://x.com/coreyganim/status/2112880525555687563 · 2026-10-21 (UTC)  
+**Why it matters for builders:** Replies doubt it, saying users may just ask the model to do the job without a plugin, but a free, useful plugin that leads to a paid product is a cheap distribution channel to test.
 
 ### Let agents draft backlink outreach, keep human approval
 **Who:** Ian Nuttall (@iannuttall), in SEO since 2005 and AI coding since 2022, per his X bio.  
