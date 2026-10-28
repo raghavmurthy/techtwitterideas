@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**111 entries** · last updated 2026-10-22
+**116 entries** · last updated 2026-10-28
 
 ## Use it as a plugin
 
@@ -29,6 +29,11 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-10-26 | [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md) | `skills` `agent-workflow` `code-review` `github` `claude-code` `codex` `open-source` | Ready-made skills for review loops and PRs, incl. cross-model review |
+| 2026-10-23 | [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md) | `security` `devops` `vps` `networking` `infrastructure` | Free setup that closes every open port on a small server |
+| 2026-10-23 | [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md) | `agent-workflow` `subagents` `cost` `claude-code` `usage-limits` | Unattended runs don't need speed; subagent fan-out burns usage |
+| 2026-10-22 | [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md) | `skills` `agent-tooling` `standards` `claude-code` `codex` `agents` | Skills become a vendor-neutral format across 70+ agent tools |
+| 2026-10-22 | [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md) | `skills` `animation` `svg` `ui` `mobile` `claude-code` | Agent-made UI motion without a dedicated animation tool |
 | 2026-10-20 | [Epic's Unreal Engine skills plugin lets Claude Code drive a running Unreal Editor](entries/2026-10-20-epic-unreal-engine-claude-code-plugin.md) | `unreal` `mcp` `game-dev` `claude-code` `agent-tooling` `skills` | Agent edits a live Unreal Editor; copyable list/describe/call tool pattern |
 | 2026-10-20 | [10 free repos for building 3D games with Claude Code](entries/2026-10-20-ten-repos-3d-games-claude-code.md) | `game-dev` `unity` `godot` `threejs` `mcp` `skills` `open-source` `resources` | Open-source stack for agent-built 3D games, incl. Unity MCP |
 | 2026-10-20 | [190 GB of leftover agent worktrees: make cleanup part of the loop](entries/2026-10-20-agent-worktree-cleanup.md) | `claude-code` `worktrees` `agent-workflow` `disk` `ops` | Leftover agent worktrees eat disk; prune on finish |
@@ -143,6 +148,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 ## By tag
 ### `claude-code`
+- [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
+- [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
+- [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [A roundup of large agent and skill repos for Claude Code (and which are actually Anthropic's)](entries/2026-10-18-agent-and-skill-repo-roundup.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
 - [Routing Claude Code work across Sonnet, Haiku and Opus by job](entries/2026-10-19-model-routing-sonnet-haiku-opus.md)
@@ -202,6 +211,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `skills`
+- [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
+- [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [A roundup of large agent and skill repos for Claude Code (and which are actually Anthropic's)](entries/2026-10-18-agent-and-skill-repo-roundup.md)
 - [10 free repos for building 3D games with Claude Code](entries/2026-10-20-ten-repos-3d-games-claude-code.md)
 - [Epic's Unreal Engine skills plugin lets Claude Code drive a running Unreal Editor](entries/2026-10-20-epic-unreal-engine-claude-code-plugin.md)
@@ -216,6 +228,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Emil Kowalski skills: /mobile-native and /break-ui](entries/2026-10-04-emil-kowalski-mobile-native-break-ui.md)
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 ### `agents`
+- [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [A self-maintaining second-brain wiki run by three bots: reader, librarian, checker](entries/2026-10-18-three-bot-second-brain-wiki.md)
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
 - [A roundup of large agent and skill repos for Claude Code (and which are actually Anthropic's)](entries/2026-10-18-agent-and-skill-repo-roundup.md)
@@ -231,6 +244,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
 ### `mobile`
+- [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Seven principles for feature flags at scale on iOS](entries/2026-10-18-ios-feature-flags-principles.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
 - [Analysing 4.5M TikToks: viral UGC isn't luck, and it isn't the format](entries/2026-10-20-tiktok-ugc-virality-analysis.md)
@@ -362,6 +376,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [475 Claude Opus 5.5 demo videos with prompts in one repo](entries/2026-10-03-475-opus-video-demos-repo.md)
 - [Opus 5.5 builds a Three.js night-city game with Blender + image-gen](entries/2026-10-02-opus-threejs-city-game.md)
 ### `ui`
+- [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [break-ui skill throws worst-case realistic data at a UI](entries/2026-10-09-break-ui-skill-praise.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
@@ -386,6 +401,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [A self-maintaining second-brain wiki run by three bots: reader, librarian, checker](entries/2026-10-18-three-bot-second-brain-wiki.md)
 - [A benchmark of how models handle pushback: GPT-4o caves, Opus 5.5 digs in](entries/2026-10-19-sycophancy-pushback-benchmark.md)
 - [Routing Claude Code work across Sonnet, Haiku and Opus by job](entries/2026-10-19-model-routing-sonnet-haiku-opus.md)
@@ -409,11 +426,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md)
 - [20-item pre-launch prompt for vibe-coded apps](entries/2026-10-09-pre-launch-20-checks.md)
 ### `codex`
+- [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
 - [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md)
 - [Codex usage resets can only be used near the limit](entries/2026-10-04-codex-reset-caveat.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `cost`
+- [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [Routing Claude Code work across Sonnet, Haiku and Opus by job](entries/2026-10-19-model-routing-sonnet-haiku-opus.md)
 - [A 25-minute animated episode written entirely as code by Opus](entries/2026-10-16-claude-coded-anime-episode.md)
@@ -428,6 +448,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Mixar: a team of AI agents that model, texture and light a 3D scene](entries/2026-10-01-mixar-multi-agent-3d.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `open-source`
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
 - [10 free repos for building 3D games with Claude Code](entries/2026-10-20-ten-repos-3d-games-claude-code.md)
@@ -453,6 +474,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Submit sitemaps to Bing Webmaster Tools and IndexNow](entries/2026-10-11-bing-indexnow-sitemap.md)
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 ### `agent-tooling`
+- [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
 - [Epic's Unreal Engine skills plugin lets Claude Code drive a running Unreal Editor](entries/2026-10-20-epic-unreal-engine-claude-code-plugin.md)
 - [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
@@ -466,6 +488,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Claude Code replaces an ad-heavy Android TV launcher](entries/2026-10-17-claude-code-android-tv-launcher.md)
 - [Google Play lets you install private vibe-coded apps](entries/2026-10-13-google-play-private-vibe-coded-apps.md)
 ### `animation`
+- [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [A 25-minute animated episode written entirely as code by Opus](entries/2026-10-16-claude-coded-anime-episode.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 ### `browser`
@@ -515,6 +538,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 ### `security`
+- [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
 - [A roundup of large agent and skill repos for Claude Code (and which are actually Anthropic's)](entries/2026-10-18-agent-and-skill-repo-roundup.md)
 - [open-browser-use: agents drive your real, logged-in Chrome over MCP](entries/2026-10-13-open-browser-use-logged-in-chrome.md)
@@ -522,6 +546,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
 - [20-item pre-launch prompt for vibe-coded apps](entries/2026-10-09-pre-launch-20-checks.md)
 ### `subagents`
+- [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
 - [Routing Claude Code work across Sonnet, Haiku and Opus by job](entries/2026-10-19-model-routing-sonnet-haiku-opus.md)
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
@@ -555,6 +580,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `code-quality`
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
 ### `code-review`
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md)
 ### `coding`
 - [Qwen3.5 9B distilled from Kimi k3 (GGUF)](entries/2026-10-08-qwen3-5-9b-kimi-distill.md)
@@ -750,3 +776,19 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [A self-maintaining second-brain wiki run by three bots: reader, librarian, checker](entries/2026-10-18-three-bot-second-brain-wiki.md)
 ### `deepseek`
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
+### `github`
+- [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
+### `devops`
+- [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
+### `vps`
+- [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
+### `networking`
+- [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
+### `infrastructure`
+- [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
+### `usage-limits`
+- [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
+### `standards`
+- [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
+### `svg`
+- [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
