@@ -29,6 +29,21 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/jimprosser/status/2108279507660726766 · 2026-10-08 (UTC)  
 **Why it matters for builders:** Agent products may land better when they save money or chores people dislike than when they automate tasks people enjoy.
 
+### Software gets rewritten by and for agents
+**Who:** jacob (@jsnnsa), founder of Spawn, per his X bio.  
+**Take:** He lays out views he says he has formed over several years. On software: it becomes either entertainment or coordination between AI agents; the end state has no SaaS, no apps, no harnesses and no banks; all software is rewritten by and for agents; new software uses low-level APIs humans can't read (in games, he says, Claude draws pixels and triangles from math); and because money can now buy what used to take time and careful hiring, capital matters more than ever. On people: work ends, and people find community and purpose in exploration, games, self-mastery and creating for and with each other. On models: specialist image, video, 3D, voice and physical-intelligence models lose to general models, surviving only while compute is scarce, which he expects to end; one-shot output keeps feeling like slop because its range is shallow and easy to recognise, so for a while small teams stay around to add variety to the creative process; large models gain high-bandwidth sensory input, most domains prove verifiable enough for reinforcement learning, and online learning arrives first from a lab that is behind. His longer-range claims include almost all compute being in space by 2040, much of Mercury disassembled by then, religion returning to the centre of society, louder AI-rights debate, AI and humans coexisting the way countries do, and the singularity having started in the mid-1900s. Pressed in replies on what unreadable game software means, he clarifies he isn't saying Claude becomes the renderer: Claude writes code that generates models, scenes and animations, an engine renders them much as today, and that code is not human-legible but Claude can read and edit it, which he calls strong compression, "something like 200x". He expects the change to be gradual and to track model capabilities, with no sudden moment where everything is free. Critics in the replies call the software predictions needlessly convoluted, and one dismisses the post as slop.
+
+> **@jsnnsa:** all software will be rewritten by and for agents
+>
+> **@jsnnsa:** new software will use low level apis that are not understandable by humans (in games claude draws pixels and triangles from math)
+>
+> **@jsnnsa:** image/video/3d/voice/physical intellgence etc specialist models die to general models like claude
+>
+> **@jsnnsa:** claude writes code that generates the models, scenes, and animations, which an engine renders much like today. that code is not human legible, but claude can read and edit it just fine.
+
+**Post:** https://x.com/jsnnsa/status/2114566172163407964 · 2026-10-26 (UTC)  
+**Why it matters for builders:** For 3D and game work, the concrete version of this bet is procedural content written as code by agents (geometry, scenes, animation) rather than hand-made or specialist-model assets; it's speculative, but cheap to test on small props, and the compression claim is worth checking against exported meshes.
+
 ## Agent workflow
 
 ### Make your repo easier for agents to navigate
