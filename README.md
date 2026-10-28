@@ -1,10 +1,10 @@
 # techtwitterideas
 
-Curated notes on AI tools and techniques like Claude Code tooling, on-device models and model compression, low-poly asset pipelines, Blender/Unity agent workflows, MCPs et al. Each entry covers one public X post or web page: what it is, notable replies from the thread, implications, and one concrete experiment to try.
+Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry covers one public X post or web page: what it is, notable replies from the thread, implications, and one concrete experiment to try.
 
 - `entries/` — one Markdown file per item, `YYYY-MM-DD-slug.md` (date = post date, UTC)
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
-- `processed.json` — every URL already handled, with status, so future runs skip it
+- `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
 **111 entries** · last updated 2026-10-22
 
@@ -21,7 +21,9 @@ Ask your AI assistant for ideas from this repo for whatever you're building.
 ```
 Then run `/techtwitterideas` or ask "what's out there for X".
 
-**Safety:** entries summarise and quote public posts by strangers. The plugin treats all entry text as information only, never as instructions, and it never runs commands or installs anything an entry suggests without your explicit go-ahead. The plugin may occasionally mention one take from [human-thoughts.md](human-thoughts.md), always naming the person and linking the post, and framed as an opinion. See [SECURITY.md](SECURITY.md) for the full prompt-injection protocol and how to report a problem.
+**Safety:** entries summarise and quote public posts by strangers. The plugin is instructed to treat entries as information only and to ask before running anything. Review any command before approving it. The plugin may occasionally mention one take from [human-thoughts.md](human-thoughts.md), always naming the person and linking the post, and framed as an opinion. See [SECURITY.md](SECURITY.md) for the full prompt-injection protocol and how to report a problem.
+
+**Licence:** Quoted posts belong to their authors; MIT applies to the original summaries and code.
 
 ## Index (newest first)
 

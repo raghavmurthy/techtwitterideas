@@ -5,8 +5,9 @@ Fails (exit 1) if any entry contains prompt-injection phrasing, reader-directed
 shell/install commands, hidden HTML, invisible or bidi Unicode, misleading
 Markdown links, unquoted third-party quotes, or private-data terms.
 Usage: python3 scripts/check_entries.py
+Needs a local, uncommitted .private-terms.txt (one term per line) or a PRIVATE_TERMS env var.
 """
-import re, sys, pathlib
+import os, re, sys, pathlib
 from urllib.parse import urlparse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -21,7 +22,22 @@ COMMANDS = [r"\b(curl|wget)\s+\S", r"\b(pip3?|npm|pnpm|yarn|brew|apt(-get)?|carg
             r"(^|[\s`])/[a-z][\w-]*\s+(enable|install|add)\b", r"\bchmod\s+\+x\b", r"\bpowershell\b", r"\biex\b"]
 HIDDEN_HTML = [r"<!--", r"<\s*(script|style|iframe|div|span|details|img|object|embed|svg)\b", r"\bstyle\s*=", r"display\s*:\s*none"]
 INVISIBLE = re.compile("[\u200b-\u200f\u202a-\u202e\u2060-\u2064\u2066-\u2069\ufeff\u00ad\U000e0000-\U000e007f]")
-PRIVATE = []  # private terms are kept in a local file that is not committed
+def load_private_terms():
+    """Private-data terms are never committed. Load them from the PRIVATE_TERMS env var
+    (comma or newline separated) or from a gitignored .private-terms.txt (one per line)."""
+    raw = os.environ.get("PRIVATE_TERMS")
+    if raw is None:
+        f = ROOT / ".private-terms.txt"
+        if not f.exists():
+            sys.exit("check_entries.py: no private terms found. Set PRIVATE_TERMS or create "
+                     ".private-terms.txt (gitignored, one term per line). Refusing to run without them.")
+        raw = f.read_text(encoding="utf-8")
+    terms = [t.strip().lower() for t in re.split(r"[,\n]", raw) if t.strip() and not t.strip().startswith("#")]
+    if not terms:
+        sys.exit("check_entries.py: private terms list is empty. Refusing to run without it.")
+    return terms
+
+PRIVATE = load_private_terms()
 # The repo's own public GitHub path is allowed (it names the account that hosts the repo).
 ALLOW = ["raghavmurthy/techtwitterideas"]
 LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
@@ -101,7 +117,7 @@ def main():
         check_file(ht, errors, True)
         check_thoughts(ht, errors)
     for p in ROOT.rglob("*"):
-        if p.is_file() and ".git" not in p.parts and p.resolve() != SELF and p.suffix in {".md", ".json", ".py", ".txt"} and p.parent.name != "entries" and p.name != "human-thoughts.md":
+        if p.is_file() and ".git" not in p.parts and p.resolve() != SELF and p.suffix in {".md", ".json", ".py", ".txt"} and p.parent.name != "entries" and p.name not in ("human-thoughts.md", ".private-terms.txt"):
             check_file(p, errors, False)
     for e in errors: print(e)
     print(f"checked {len(files)} entries + human-thoughts.md: {'FAIL, ' + str(len(errors)) + ' problem(s)' if errors else 'OK'}")
