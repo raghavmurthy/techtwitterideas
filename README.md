@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**116 entries** · last updated 2026-10-28
+**120 entries** · last updated 2026-10-31
 
 ## Use it as a plugin
 
@@ -29,6 +29,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-10-29 | [Redesigning a "vibecoded" app screen with a design-reference MCP and skills](entries/2026-10-29-appllama-mcp-redesign-vibecoded-app.md) | `ui` `design` `mobile` `mcp` `skills` `ios` `vibe-coding` | Reference-driven UI passes fix generic AI-made screens (vendor demo) |
+| 2026-10-29 | ["Exercise abstract thinking": a short prompt suffix for planning](entries/2026-10-29-exercise-abstract-thinking-prompt.md) | `prompting` `planning` `agent-workflow` `models` | Cheap planning-prompt tweak worth an A/B test (anecdotal) |
+| 2026-10-28 | [A 50-agent social media research team in Claude Code, built around one context file](entries/2026-10-28-fifty-agent-social-media-team.md) | `agents` `claude-code` `skills` `marketing` `content` `ugc` `agent-workflow` | Shared context file, rules-from-corrections, relative outlier ranking |
+| 2026-10-27 | [Don't let an agent write your legal pages unchecked](entries/2026-10-27-claude-legal-pages-overreach.md) | `legal` `privacy` `launch` `claude` `agent-workflow` `gdpr` | Generated policies can add promises and expose the stack |
 | 2026-10-26 | [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md) | `skills` `agent-workflow` `code-review` `github` `claude-code` `codex` `open-source` | Ready-made skills for review loops and PRs, incl. cross-model review |
 | 2026-10-23 | [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md) | `security` `devops` `vps` `networking` `infrastructure` | Free setup that closes every open port on a small server |
 | 2026-10-23 | [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md) | `agent-workflow` `subagents` `cost` `claude-code` `usage-limits` | Unattended runs don't need speed; subagent fan-out burns usage |

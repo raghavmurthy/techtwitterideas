@@ -44,6 +44,19 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/jsnnsa/status/2114566172163407964 · 2026-10-26 (UTC)  
 **Why it matters for builders:** For 3D and game work, the concrete version of this bet is procedural content written as code by agents (geometry, scenes, animation) rather than hand-made or specialist-model assets; it's speculative, but cheap to test on small props, and the compression claim is worth checking against exported meshes.
 
+### One person plus AI can run several drug programs at once
+**Who:** Cody Tranbarger (@Prof_Oak_), founder of Mithril Medicine, a one-person biotech acquired by Anthropic, per public reporting (Anthropic's Oct 27, 2026 announcement); his X bio describes him as buyside turned operator in biopharma.  
+**Take:** Writing for six years as the anonymous "Professor Oak", he reveals that Anthropic acquired his company and that he is joining it. He describes Mithril, which develops bispecific antibodies for LAMA2-CMD and other genetic diseases of the extracellular matrix, as starting virtual, decentralised and very lean, and says it stayed that way for unusually long because AI tools matured quickly. It became an experiment in how far one operator plus Claude (and a bench of part-time consultants) could scale. After working with people at the frontier of AI he came to see it not as an experiment but as a preview of a new operating model, which he calls "Pipeline-in-a-Person"; he says that idea was central to the acquisition. He gives three reasons for joining: the existing programs continue with more resources, he gets to start several more and find out how many one person can run in parallel, and Anthropic offers a path to scale this way of working across biopharma. His core claim is that AI will help cure diseases, but not mainly by compressing timelines, which gets the most attention; the low-hanging fruit today is orchestration and parallelisation. Drug hunters make only a handful of go/no-go calls in a career and spend much of their time on email; give them bandwidth to run several programs and time for scientific judgement, and he bets they will make better calls, which at scale means more drugs and higher hit rates. Anthropic's own post says Claude organised contracts, logistics and experiments with 11 external labs, and that one candidate went from idea to promising results in mice in under 18 months. Replies include sharp scepticism: one calls it IPO hype and argues a clinician with a track record would have been the choice if new medicines were the priority.
+
+> **@Prof_Oak_:** Eventually, Mithril became a bit of an experiment itself - to find the upper bound of how far it could scale as a single operator + a bunch of Claude (+ a stellar bench of part-time consultants).
+>
+> **@Prof_Oak_:** Rather than timeline acceleration & compression, I see orchestration & parallelization as today's low-hanging fruit.
+>
+> **@Prof_Oak_:** Give them the bandwidth to run several programs at once, and the time to focus on scientific judgment, and I’m willing to bet they’ll make better calls.
+
+**Post:** https://x.com/Prof_Oak_/status/2115185849424048564 · 2026-10-27 (UTC)  
+**Why it matters for builders:** For solo developers the same bet applies: let agents carry the coordination and admin so one person can keep several projects or prototypes moving and spend their own time on judgement calls.
+
 ## Agent workflow
 
 ### Make your repo easier for agents to navigate
@@ -96,6 +109,19 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 **Post:** https://x.com/soleio/status/2111330755657994334 · 2026-10-17 (UTC)  
 **Why it matters for builders:** Agent tools for 3D/game work may be better as a shared viewport the agent narrates than as a chat log.
+
+### Agent slop is preventable if someone sets the bar
+**Who:** Theo (@theo), full-time CEO of T3 Code and T3 Chat and part-time YouTuber, investor and developer, per his X bio.  
+**Take:** He reports that an agent's pull request was blocked because it added 100 bytes to a payload, and draws one conclusion: slop from agents can be prevented, you just have to care enough to do it. That is the whole post; he didn't expand on it in the thread, and he doesn't say whether the block came from an automated size check or a human reviewer. Replies fill in the reasoning: one says a human adds 100 extra bytes once while an agent adds them in every PR until something says no, so hard budgets beat review comments because the agent can't argue with a number; another describes running anti-slop checks and typechecks as hooks after every edit plus a pre-push gate, because agent PRs touch too many files to review reliably by eye.
+
+> **@theo:** Just had an agent's PR get blocked because it added 100 bytes to a payload.
+>
+> **@theo:** You can prevent the slop, you just have to care enough to do it.
+>
+> **@siddhantmohan1:** A human adds 100 extra bytes once. An agent adds them in every PR until something says no. Hard budgets like payload size beat review comments because the agent can't argue with a number.
+
+**Post:** https://x.com/theo/status/2115611204001661029 · 2026-10-29 (UTC)  
+**Why it matters for builders:** Size budgets in CI (bundle size, build size, texture memory, draw calls) let agents work freely while blocking the slow bloat that reviewers miss.
 
 ## Cost and tooling
 
