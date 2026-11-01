@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**120 entries** · last updated 2026-10-31
+**121 entries** · last updated 2026-11-01
 
 ## Use it as a plugin
 
@@ -29,6 +29,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-10-30 | [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md) | `seo` `vibe-coding` `web` `checklist` `launch` `agent-workflow` | Crawl, on-page and speed fixes for AI-built sites |
 | 2026-10-29 | [Redesigning a "vibecoded" app screen with a design-reference MCP and skills](entries/2026-10-29-appllama-mcp-redesign-vibecoded-app.md) | `ui` `design` `mobile` `mcp` `skills` `ios` `vibe-coding` | Reference-driven UI passes fix generic AI-made screens (vendor demo) |
 | 2026-10-29 | ["Exercise abstract thinking": a short prompt suffix for planning](entries/2026-10-29-exercise-abstract-thinking-prompt.md) | `prompting` `planning` `agent-workflow` `models` | Cheap planning-prompt tweak worth an A/B test (anecdotal) |
 | 2026-10-28 | [A 50-agent social media research team in Claude Code, built around one context file](entries/2026-10-28-fifty-agent-social-media-team.md) | `agents` `claude-code` `skills` `marketing` `content` `ugc` `agent-workflow` | Shared context file, rules-from-corrections, relative outlier ranking |
@@ -293,6 +294,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `launch`
+- [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
@@ -405,6 +407,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [A self-maintaining second-brain wiki run by three bots: reader, librarian, checker](entries/2026-10-18-three-bot-second-brain-wiki.md)
@@ -424,6 +427,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 ### `checklist`
+- [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
@@ -474,6 +478,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [Designeer: curated hub of design galleries, components, AI tools and MCP servers](entries/2026-10-03-designeer-design-resource-hub.md)
 ### `seo`
+- [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [How Railway grew via AI recommendations (AI SEO)](entries/2026-10-14-railway-ai-seo-playbook.md)
 - [Submit sitemaps to Bing Webmaster Tools and IndexNow](entries/2026-10-11-bing-indexnow-sitemap.md)
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
@@ -717,6 +722,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `vector`
 - [ChatGPT plugin that vectorizes logos in chat](entries/2026-10-01-chatgpt-logo-vectorize-plugin.md)
 ### `vibe-coding`
+- [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - ['I may have vibe coded the best thing ever' (video only)](entries/2026-10-03-armand-vibe-coded-setup.md)
@@ -725,6 +731,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `voice`
 - [NeuDecide: 43 MB speech-to-tool-call model on one CPU thread](entries/2026-10-08-neudecide-audio-tool-calls.md)
 ### `web`
+- [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 ### `web-design`
 - [10 resources for AI-assisted 3D and animated web design](entries/2026-10-18-web-3d-design-resource-list.md)
