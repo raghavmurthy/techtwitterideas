@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**121 entries** · last updated 2026-11-01
+**122 entries** · last updated 2026-11-04
 
 ## Use it as a plugin
 
@@ -29,6 +29,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-02 | [Naming a simplicity bar in a UI prompt: "as simple as Linear's site or Apple Notes"](entries/2026-11-02-simplicity-bar-prompt-linear-apple-notes.md) | `prompting` `ui` `design` `vibe-coding` `agent-workflow` `claude-code` `codex` | Concrete reference products give agents a bar; keep text that explains consequences |
 | 2026-10-30 | [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md) | `seo` `vibe-coding` `web` `checklist` `launch` `agent-workflow` | Crawl, on-page and speed fixes for AI-built sites |
 | 2026-10-29 | [Redesigning a "vibecoded" app screen with a design-reference MCP and skills](entries/2026-10-29-appllama-mcp-redesign-vibecoded-app.md) | `ui` `design` `mobile` `mcp` `skills` `ios` `vibe-coding` | Reference-driven UI passes fix generic AI-made screens (vendor demo) |
 | 2026-10-29 | ["Exercise abstract thinking": a short prompt suffix for planning](entries/2026-10-29-exercise-abstract-thinking-prompt.md) | `prompting` `planning` `agent-workflow` `models` | Cheap planning-prompt tweak worth an A/B test (anecdotal) |
