@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**122 entries** · last updated 2026-11-04
+**124 entries** · last updated 2026-11-07
 
 ## Use it as a plugin
 
@@ -29,6 +29,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-03 | [TikTok iOS client reverse-engineering: on-device models, activity signals and feed scores](entries/2026-11-03-tiktok-ios-client-signals-reverse-engineering.md) | `tiktok` `mobile` `privacy` `reverse-engineering` `recommendation` `on-device-ml` `ugc` `marketing` | Client teardown of retention signals; reading ≠ proven ranking |
+| 2026-11-03 | [Running a company as voice notes and inference: one founder’s full agent stack](entries/2026-11-03-agent-company-stack-voice-notes-to-ship.md) | `agent-workflow` `agents` `skills` `mcp` `claude-code` `worktrees` `ops` `startup` | End-to-end agent pipeline from brief to funnel, with human edges |
 | 2026-11-02 | [Naming a simplicity bar in a UI prompt: "as simple as Linear's site or Apple Notes"](entries/2026-11-02-simplicity-bar-prompt-linear-apple-notes.md) | `prompting` `ui` `design` `vibe-coding` `agent-workflow` `claude-code` `codex` | Concrete reference products give agents a bar; keep text that explains consequences |
 | 2026-10-30 | [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md) | `seo` `vibe-coding` `web` `checklist` `launch` `agent-workflow` | Crawl, on-page and speed fixes for AI-built sites |
 | 2026-10-29 | [Redesigning a "vibecoded" app screen with a design-reference MCP and skills](entries/2026-10-29-appllama-mcp-redesign-vibecoded-app.md) | `ui` `design` `mobile` `mcp` `skills` `ios` `vibe-coding` | Reference-driven UI passes fix generic AI-made screens (vendor demo) |
