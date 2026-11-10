@@ -196,3 +196,14 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 **Post:** https://x.com/hectorserrranoo/status/2109314260786667864 · 2026-10-11 (UTC)  
 **Why it matters for builders:** For small game teams, distribution skills may now matter more than extra engineering capacity.
+
+## Careers and skills
+
+### Fear of AI is a sign of having no edge
+**Who:** Nassim Nicholas Taleb (@nntaleb), author of *The Black Swan* and the *Incerto* series, per public reporting; his X bio describes his interests as probability in philosophy, mathematics and real life.  
+**Take:** He is deliberately blunt. His claim is that people who are afraid of AI feel, deep down, that they are impostors with no edge. He then gives the conditions under which AI becomes an ally instead of a threat: (1) a clear mind, (2) a deep rather than cosmetic understanding of your specialty, and (3) the originality to reinvent yourself when needed. The "and/or" wording means depth or reinvention can each be enough alongside clear thinking. That is the whole post; it was first posted in April 2023 and drew a fresh wave of replies in November 2026. Replies push back that most people are average and simply need the jobs that exist where they live, and that fear can be rational if you understand how AI will be used, while others say it has aged well.
+
+> **@nntaleb:** Let me be blunt. Those who are afraid of AI feel deep down that they are impostors & have no edge. If you have a 1) clear mind, 2) a deep, not just cosmetic, undertanding of your specialty, 3) and/or are original enough to reinvent yourself when needed, AI will be your friend.
+
+**Post:** https://x.com/nntaleb/status/1642241685823315972 · 2023-04-01 (UTC)  
+**Why it matters for builders:** A useful self-check for any specialist: if a tool can do your job, the answer is to deepen the craft (lighting, game feel, optimisation) or reposition, not to avoid the tool.
