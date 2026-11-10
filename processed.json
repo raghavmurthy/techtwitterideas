@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "items": [
   {
    "url": "https://x.com/codr_1/status/2105265191986598158",
@@ -710,6 +710,16 @@
    "url": "https://x.com/gregisenberg/status/2117734977312047537",
    "status": "entry",
    "date": "2026-11-03"
+  },
+  {
+   "url": "https://x.com/joshpuckett/status/2118942637688512989",
+   "status": "entry",
+   "date": "2026-11-07"
+  },
+  {
+   "url": "https://x.com/nntaleb/status/1642241685823315972",
+   "status": "thought",
+   "date": "2023-04-01"
   }
  ]
 }

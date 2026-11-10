@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**124 entries** · last updated 2026-11-07
+**125 entries** · last updated 2026-11-10
 
 ## Use it as a plugin
 
@@ -29,6 +29,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-07 | [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md) | `prompting` `agent-workflow` `code-quality` `state-machines` `testing` `unity` `game-dev` `refactoring` | Read-only agent audits that surface hidden-state bugs; triage before fixing |
 | 2026-11-03 | [TikTok iOS client reverse-engineering: on-device models, activity signals and feed scores](entries/2026-11-03-tiktok-ios-client-signals-reverse-engineering.md) | `tiktok` `mobile` `privacy` `reverse-engineering` `recommendation` `on-device-ml` `ugc` `marketing` | Client teardown of retention signals; reading ≠ proven ranking |
 | 2026-11-03 | [Running a company as voice notes and inference: one founder’s full agent stack](entries/2026-11-03-agent-company-stack-voice-notes-to-ship.md) | `agent-workflow` `agents` `skills` `mcp` `claude-code` `worktrees` `ops` `startup` | End-to-end agent pipeline from brief to funnel, with human edges |
 | 2026-11-02 | [Naming a simplicity bar in a UI prompt: "as simple as Linear's site or Apple Notes"](entries/2026-11-02-simplicity-bar-prompt-linear-apple-notes.md) | `prompting` `ui` `design` `vibe-coding` `agent-workflow` `claude-code` `codex` | Concrete reference products give agents a bar; keep text that explains consequences |
@@ -347,6 +348,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `game-dev`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
 - [10 free repos for building 3D games with Claude Code](entries/2026-10-20-ten-repos-3d-games-claude-code.md)
 - [Epic's Unreal Engine skills plugin lets Claude Code drive a running Unreal Editor](entries/2026-10-20-epic-unreal-engine-claude-code-plugin.md)
@@ -373,6 +375,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 - [What AI coding subscriptions are worth at API prices](entries/2026-10-01-subscription-vs-api-cost.md)
 ### `testing`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
 - [break-ui skill throws worst-case realistic data at a UI](entries/2026-10-09-break-ui-skill-praise.md)
@@ -410,6 +413,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
@@ -566,6 +570,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `unity`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [Rejected under 2.5.19 for test switches left in a release build](entries/2026-10-18-hidden-test-switches-app-review.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
 - [10 free repos for building 3D games with Claude Code](entries/2026-10-20-ten-repos-3d-games-claude-code.md)
@@ -590,6 +595,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `browser-games`
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 ### `code-quality`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
 ### `code-review`
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
@@ -686,6 +692,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `promo`
 - [Claude app: design/deck/doc work uses 50% less usage for two weeks](entries/2026-10-01-claude-design-usage-promo.md)
 ### `prompting`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `quality`
@@ -806,3 +813,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 ### `svg`
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
+### `state-machines`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
+### `refactoring`
+- [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
