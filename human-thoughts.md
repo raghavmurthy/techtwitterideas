@@ -123,6 +123,19 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/theo/status/2115611204001661029 · 2026-10-29 (UTC)  
 **Why it matters for builders:** Size budgets in CI (bundle size, build size, texture memory, draw calls) let agents work freely while blocking the slow bloat that reviewers miss.
 
+### The bottleneck is now ambition and parallel compute
+**Who:** Guillermo Rauch (@rauchg), CEO of Vercel, per his X bio.  
+**Take:** He says Vercel tested Claude Fable 5.2 before release and sums it up as "astonishingly brilliant". His main takeaway is that this generation of models can take on unprecedented amounts of parallel work, and that the model can delegate and orchestrate far more than a single computer can handle, likely more than people imagine. To actually use that, he argues, you need cloud sandboxes, "full stop". His conclusion is that the bottleneck is now (1) your ambition and (2) your parallel computing power. He adds that it doesn't need to be complicated: he credits a colleague with showing him that an agent can use a sandbox skill from Vercel's own tooling to provision and release cloud sandboxes as needed, without an elaborate multi-agent orchestrator. Note that he is describing his own company's product. Replies largely agree on the parallelism but add a third bottleneck: reviewing and judging what all those parallel runs produce.
+
+> **@rauchg:** One interesting takeaway: it's very clear that this new generation of models can take on unprecedented bodies of parallel work.
+>
+> **@rauchg:** To actually seize this intelligence, you need cloud sandboxes. Full stop. The model can delegate and orchestrate far more than a single computer can handle.
+>
+> **@rauchg:** Your bottleneck is now ① your ambition and ② your parallel computing power.
+
+**Post:** https://x.com/rauchg/status/2119878364794372162 · 2026-11-09 (UTC)  
+**Why it matters for builders:** If agents can run many tasks at once, local hardware and human review become the limits; isolated sandboxes per task and a plan for reviewing the results matter more than clever prompts.
+
 ## Cost and tooling
 
 ### Agents can now out-build big rewrite teams
@@ -207,3 +220,16 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 **Post:** https://x.com/nntaleb/status/1642241685823315972 · 2023-04-01 (UTC)  
 **Why it matters for builders:** A useful self-check for any specialist: if a tool can do your job, the answer is to deepen the craft (lighting, game feel, optimisation) or reposition, not to avoid the tool.
+
+### Smart people default to explaining why ideas won't work
+**Who:** gabriel (@gabriel1), co-founder of Energy and previously in research at OpenAI and Midjourney, per his X bio.  
+**Take:** He asks why the smartest 18–23-year-olds at Stanford, Harvard and MIT have such a defeatist mindset: discuss any idea and they will, by default, explain in great detail what might not work instead of figuring out how to make it work. In his follow-ups he offers an explanation and a request. The explanation: school rewards very smart people for spotting nonsense, because school tasks are artificial and disconnected from reality. The problem is that optimism and thinking up wild ways to make something actually work hold almost all of the upside. The request: he already knows a new idea looks stupid, since that is why the thing doesn't exist yet, so what he wants is improvements, not a verdict.
+
+> **@gabriel1:** discuss any idea and they'll by default talk in great detail what things might not work, instead figuring out how to make it work
+>
+> **@gabriel1:** too bad only optimism and thinking about crazy ideas for how to make something actually work has 99% of the upside
+>
+> **@gabriel1:** it's always "yeah your idea is stupid". yeah i know it's stupid basically are ideas are stupid that's why the thing doesn't exist, give me improvements
+
+**Post:** https://x.com/gabriel1/status/2119931744770228388 · 2026-11-09 (UTC)  
+**Why it matters for builders:** When reviewing an early prototype or game concept, ask "what would make this work?" before listing failure modes; critique is cheap, constructive fixes are the scarce input.

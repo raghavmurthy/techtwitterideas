@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-13",
  "items": [
   {
    "url": "https://x.com/codr_1/status/2105265191986598158",
@@ -720,6 +720,31 @@
    "url": "https://x.com/nntaleb/status/1642241685823315972",
    "status": "thought",
    "date": "2023-04-01"
+  },
+  {
+   "url": "https://x.com/simonw/status/2120029347948220500",
+   "status": "entry",
+   "date": "2026-11-10"
+  },
+  {
+   "url": "https://x.com/0xPaulius/status/2119758408857628677",
+   "status": "entry",
+   "date": "2026-11-09"
+  },
+  {
+   "url": "https://x.com/mark_k/status/2120076820913803265",
+   "status": "entry",
+   "date": "2026-11-10"
+  },
+  {
+   "url": "https://x.com/rauchg/status/2119878364794372162",
+   "status": "thought",
+   "date": "2026-11-09"
+  },
+  {
+   "url": "https://x.com/gabriel1/status/2119931744770228388",
+   "status": "thought",
+   "date": "2026-11-09"
   }
  ]
 }
