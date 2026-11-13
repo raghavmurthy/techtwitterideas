@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**125 entries** · last updated 2026-11-10
+**128 entries** · last updated 2026-11-13
 
 ## Use it as a plugin
 
@@ -29,6 +29,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-10 | [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md) | `prompting` `claude` `agent-workflow` `refactoring` `code-quality` `unity` `testing` | One sentence moves an agent from adding duplicates to consolidating; fence it with tests |
+| 2026-11-09 | [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md) | `computer-use` `agents` `testing` `macos` `agent-workflow` `automation` | Unattended GUI testing on your own workstation without losing input |
+| 2026-11-09 | [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md) | `game-dev` `claude` `procedural-generation` `3d` `prototyping` `agent-workflow` `cost` | Tiny-scope, high-quality briefs make agent-built prototypes viable; game feel still needs humans |
 | 2026-11-07 | [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md) | `prompting` `agent-workflow` `code-quality` `state-machines` `testing` `unity` `game-dev` `refactoring` | Read-only agent audits that surface hidden-state bugs; triage before fixing |
 | 2026-11-03 | [TikTok iOS client reverse-engineering: on-device models, activity signals and feed scores](entries/2026-11-03-tiktok-ios-client-signals-reverse-engineering.md) | `tiktok` `mobile` `privacy` `reverse-engineering` `recommendation` `on-device-ml` `ugc` `marketing` | Client teardown of retention signals; reading ≠ proven ranking |
 | 2026-11-03 | [Running a company as voice notes and inference: one founder’s full agent stack](entries/2026-11-03-agent-company-stack-voice-notes-to-ship.md) | `agent-workflow` `agents` `skills` `mcp` `claude-code` `worktrees` `ops` `startup` | End-to-end agent pipeline from brief to funnel, with human edges |
@@ -181,6 +184,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 ### `claude`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [A benchmark of how models handle pushback: GPT-4o caves, Opus 5.5 digs in](entries/2026-10-19-sycophancy-pushback-benchmark.md)
 - [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
@@ -237,6 +242,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Emil Kowalski skills: /mobile-native and /break-ui](entries/2026-10-04-emil-kowalski-mobile-native-break-ui.md)
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 ### `agents`
+- [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [A self-maintaining second-brain wiki run by three bots: reader, librarian, checker](entries/2026-10-18-three-bot-second-brain-wiki.md)
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
@@ -348,6 +354,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `game-dev`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
 - [10 free repos for building 3D games with Claude Code](entries/2026-10-20-ten-repos-3d-games-claude-code.md)
@@ -375,6 +382,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 - [What AI coding subscriptions are worth at API prices](entries/2026-10-01-subscription-vs-api-cost.md)
 ### `testing`
+- [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
@@ -399,6 +408,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Launch video from HTML + GSAP rendered by HyperFrames](entries/2026-10-08-hyperframes-launch-video.md)
 - [20 repos for agent-made motion design (claude-motion, HyperFrames, Remotion, GSAP)](entries/2026-10-08-20-motion-design-repos.md)
 ### `3d`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md)
@@ -413,6 +423,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
+- [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
@@ -448,6 +461,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Codex usage resets can only be used near the limit](entries/2026-10-04-codex-reset-caveat.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `cost`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [Routing Claude Code work across Sonnet, Haiku and Opus by job](entries/2026-10-19-model-routing-sonnet-haiku-opus.md)
@@ -546,6 +560,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 - [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md)
 ### `prototyping`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 - [Google Play lets you install private vibe-coded apps](entries/2026-10-13-google-play-private-vibe-coded-apps.md)
@@ -570,6 +585,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `unity`
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [Rejected under 2.5.19 for test switches left in a release build](entries/2026-10-18-hidden-test-switches-app-review.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
@@ -595,6 +611,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `browser-games`
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 ### `code-quality`
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
 ### `code-review`
@@ -692,6 +709,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `promo`
 - [Claude app: design/deck/doc work uses 50% less usage for two weeks](entries/2026-10-01-claude-design-usage-promo.md)
 ### `prompting`
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [How to be more ambitious with models: altitude, depth and range (plus a /be-ambitious skill)](entries/2026-10-13-be-ambitious-with-models.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
@@ -816,4 +834,13 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `state-machines`
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 ### `refactoring`
+- [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
+### `computer-use`
+- [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
+### `macos`
+- [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
+### `automation`
+- [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
+### `procedural-generation`
+- [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
