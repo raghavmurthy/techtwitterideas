@@ -210,6 +210,17 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/hectorserrranoo/status/2109314260786667864 · 2026-10-11 (UTC)  
 **Why it matters for builders:** For small game teams, distribution skills may now matter more than extra engineering capacity.
 
+### Launching on Product Hunt through its MCP gets featured more often
+**Who:** Rajiv Ayyangar (@rajivayyangar), CEO of Product Hunt and co-founder of Tandem (virtual office), per his X bio.  
+**Take:** He offers what he calls an insider tip as Product Hunt's CEO: launches submitted through Product Hunt's MCP server are three times more likely to be featured than launches submitted manually. His explanation is that the MCP "actually helps you create a better launch", not that MCP submissions are favoured as such. He was quoting his own announcement from a few days earlier, which said makers can now launch via MCP and use it to find related and competing products for research, investors can search new startups (including a filter based on Product Hunt's own model predicting Series A likelihood), and operators can search over 500,000 apps. He doesn't say how the 3x figure was measured, and one reply asks directly whether MCP projects are simply better or are being ranked higher; that question wasn't answered in the thread.
+
+> **@rajivayyangar:** Product Hunt insider tip (I'm the CEO): Launches submitted via MCP are 3 times more likely to be featured than manual launches. Our MCP actually helps you create a better launch.
+>
+> **@rajivayyangar:** Builders: you can launch via MCP, and find related / competitive products for research and inspiration!
+
+**Post:** https://x.com/rajivayyangar/status/2121307488767369691 · 2026-11-13 (UTC)  
+**Why it matters for builders:** When launching an app or game on Product Hunt, letting an agent prepare the listing through the official MCP is a cheap thing to try, though the 3x figure comes from the platform itself without a stated method.
+
 ## Careers and skills
 
 ### Fear of AI is a sign of having no edge
