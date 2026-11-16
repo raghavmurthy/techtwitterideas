@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**128 entries** · last updated 2026-11-13
+**136 entries** · last updated 2026-11-16
 
 ## Use it as a plugin
 
@@ -29,6 +29,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-15 | [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md) | `security` `agents` `coding-agents` `privacy` `devops` `prompt-injection` | Cheap tripwire for agents, plugins or packages reading secrets |
+| 2026-11-15 | [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md) | `legal` `compliance` `launch` `privacy` `vibe-coding` `checklist` `accessibility` `agent-workflow` | SMS consent, labels, fake reviews, biometrics, AI disclosure, privacy policy |
+| 2026-11-14 | [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md) | `local-models` `open-weights` `models` `huggingface` `compression` `licensing` `tts` `music` `video-gen` `asset-pipeline` | Local asset pipeline options; check licences, pick one quant |
+| 2026-11-13 | [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md) | `ui` `performance` `web` `prefetch` `prediction` `open-source` `game-dev` `mobile` | Median load 667 ms to 400 ms vs hover prefetch in one test |
+| 2026-11-13 | [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md) | `video-editing` `video` `open-source` `claude-code` `codex` `agents` `content` `marketing` | Agent rough cuts of dialogue footage, finished in a real NLE |
+| 2026-11-12 | [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md) | `ui` `agents` `skills` `web` `accessibility` `open-source` `design-system` | Agents compose tested focus/keyboard/ARIA behaviours instead of guessing |
+| 2026-11-12 | [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md) | `claude` `agents` `meetings` `collaboration` `docs` `diagrams` `agent-workflow` | Meetings that end with a working doc, not just notes |
+| 2026-11-10 | [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md) | `seo` `ai-search` `launch` `web` `agent-workflow` `skills` `marketing` `checklist` | Checked, ordered SEO/GEO steps plus agent permission tiers |
 | 2026-11-10 | [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md) | `prompting` `claude` `agent-workflow` `refactoring` `code-quality` `unity` `testing` | One sentence moves an agent from adding duplicates to consolidating; fence it with tests |
 | 2026-11-09 | [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md) | `computer-use` `agents` `testing` `macos` `agent-workflow` `automation` | Unattended GUI testing on your own workstation without losing input |
 | 2026-11-09 | [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md) | `game-dev` `claude` `procedural-generation` `3d` `prototyping` `agent-workflow` `cost` | Tiny-scope, high-quality briefs make agent-built prototypes viable; game feel still needs humans |
@@ -160,6 +168,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 ## By tag
 ### `claude-code`
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
@@ -184,6 +193,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 ### `claude`
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
@@ -201,6 +211,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Claude app: design/deck/doc work uses 50% less usage for two weeks](entries/2026-10-01-claude-design-usage-promo.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `marketing`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [Analysing 4.5M TikToks: viral UGC isn't luck, and it isn't the format](entries/2026-10-20-tiktok-ugc-virality-analysis.md)
 - [Lessons from a vibe-coded iOS app with 4K Reddit-only downloads](entries/2026-10-16-reddit-4k-downloads-ios-app.md)
 - [An indie developer's ranking of mobile app marketing channels](entries/2026-10-13-mobile-app-marketing-channels.md)
@@ -225,6 +237,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `skills`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
@@ -242,6 +256,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Emil Kowalski skills: /mobile-native and /break-ui](entries/2026-10-04-emil-kowalski-mobile-native-break-ui.md)
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 ### `agents`
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
+- [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [A self-maintaining second-brain wiki run by three bots: reader, librarian, checker](entries/2026-10-18-three-bot-second-brain-wiki.md)
@@ -259,6 +277,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
 ### `mobile`
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Seven principles for feature flags at scale on iOS](entries/2026-10-18-ios-feature-flags-principles.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
@@ -304,6 +323,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `launch`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
@@ -331,6 +352,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Sound-design prompt for Opus/Fable motion design](entries/2026-10-09-opus-sound-design-prompt.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `compression`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [Qwen3.5 9B distilled from Kimi k3 (GGUF)](entries/2026-10-08-qwen3-5-9b-kimi-distill.md)
@@ -349,11 +371,13 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Designeer: curated hub of design galleries, components, AI tools and MCP servers](entries/2026-10-03-designeer-design-resource-hub.md)
 - [Claude app: design/deck/doc work uses 50% less usage for two weeks](entries/2026-10-01-claude-design-usage-promo.md)
 ### `docs`
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 - [How Railway grew via AI recommendations (AI SEO)](entries/2026-10-14-railway-ai-seo-playbook.md)
 - [OpenDataLoader: CPU-only PDF → Markdown at ~100 pages/s (Chinese post)](entries/2026-10-11-opendataloader-pdf.md)
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `game-dev`
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
@@ -365,6 +389,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Opus 5.5 builds a Three.js night-city game with Blender + image-gen](entries/2026-10-02-opus-threejs-city-game.md)
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 ### `local-models`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
 - [Qwen3.5 9B distilled from Kimi k3 (GGUF)](entries/2026-10-08-qwen3-5-9b-kimi-distill.md)
 - [Decision models on-device in llama.cpp (Kev-4B GGUF)](entries/2026-10-02-kev-4b-llamacpp.md)
@@ -397,12 +422,15 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [475 Claude Opus 5.5 demo videos with prompts in one repo](entries/2026-10-03-475-opus-video-demos-repo.md)
 - [Opus 5.5 builds a Three.js night-city game with Blender + image-gen](entries/2026-10-02-opus-threejs-city-game.md)
 ### `ui`
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [break-ui skill throws worst-case realistic data at a UI](entries/2026-10-09-break-ui-skill-praise.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
 - [Emil Kowalski skills: /mobile-native and /break-ui](entries/2026-10-04-emil-kowalski-mobile-native-break-ui.md)
 ### `video`
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md)
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Launch video from HTML + GSAP rendered by HyperFrames](entries/2026-10-08-hyperframes-launch-video.md)
@@ -423,6 +451,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
@@ -440,6 +471,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md)
 - [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md)
 ### `asset-pipeline`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
@@ -447,6 +479,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 ### `checklist`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
@@ -454,6 +488,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md)
 - [20-item pre-launch prompt for vibe-coded apps](entries/2026-10-09-pre-launch-20-checks.md)
 ### `codex`
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
@@ -477,6 +512,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Mixar: a team of AI agents that model, texture and light a 3D scene](entries/2026-10-01-mixar-multi-agent-3d.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `open-source`
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
@@ -499,6 +537,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [Designeer: curated hub of design galleries, components, AI tools and MCP servers](entries/2026-10-03-designeer-design-resource-hub.md)
 ### `seo`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [How Railway grew via AI recommendations (AI SEO)](entries/2026-10-14-railway-ai-seo-playbook.md)
 - [Submit sitemaps to Bing Webmaster Tools and IndexNow](entries/2026-10-11-bing-indexnow-sitemap.md)
@@ -535,9 +574,11 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [A CLAUDE.md built from Boris Cherny's workflow tips](entries/2026-10-04-claude-md-best-practices.md)
 - [Boris Cherny's 28-min Claude Code talk (CLAUDE.md, memory, parallel sessions)](entries/2026-10-04-boris-cherny-claude-code-talk.md)
 ### `coding-agents`
+- [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [Evidence: agent-written unit/integration tests don't improve success](entries/2026-10-08-ai-written-tests-dont-help.md)
 - [Coding agent harness tier list ('Very important discussion')](entries/2026-10-04-coding-agent-tier-list.md)
 ### `compliance`
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [Rejected under 2.5.19 for test switches left in a release build](entries/2026-10-18-hidden-test-switches-app-review.md)
 - [Apple updates App Review Guidelines amid developer account terminations](entries/2026-10-17-app-review-guidelines-update.md)
 - [App Store Review Guideline 2.5.19 and remote config / A/B testing](entries/2026-10-16-app-store-guideline-2-5-19.md)
@@ -551,12 +592,15 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Anthropic's Scion: source control rebuilt for agent-scale merges](entries/2026-10-13-scion-agent-scale-source-control.md)
 - [Railway free Linux VMs with Claude Code/Codex preinstalled](entries/2026-10-10-railway-free-agent-vms.md)
 ### `music`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - ['I may have vibe coded the best thing ever' (video only)](entries/2026-10-03-armand-vibe-coded-setup.md)
 ### `open-weights`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [Cloudflare drops 'clef' on Hugging Face (Apache 2.0)](entries/2026-10-01-cloudflare-clef-hf.md)
 - [Ideogram 4.5: multi-turn image editing without artifact build-up](entries/2026-09-30-ideogram-4-5-precise-edit.md)
 ### `performance`
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 - [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md)
 ### `prototyping`
@@ -569,6 +613,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 ### `security`
+- [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
 - [A roundup of large agent and skill repos for Claude Code (and which are actually Anthropic's)](entries/2026-10-18-agent-and-skill-repo-roundup.md)
@@ -582,6 +627,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Have subagents red-team a site before shipping](entries/2026-10-16-security-red-team-subagents.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 ### `tts`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `unity`
@@ -593,12 +639,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Boris Cherny's 28-min Claude Code talk (CLAUDE.md, memory, parallel sessions)](entries/2026-10-04-boris-cherny-claude-code-talk.md)
 - [Matt Pocock: /retro your agent sessions to make the repo easier to navigate](entries/2026-10-02-retro-repo-navigability.md)
 ### `video-editing`
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [Opus 5.5 edits video in chunks for fast re-renders](entries/2026-10-07-opus-chunked-video-editing.md)
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 ### `ab-testing`
 - [Seven principles for feature flags at scale on iOS](entries/2026-10-18-ios-feature-flags-principles.md)
 - [App Store Review Guideline 2.5.19 and remote config / A/B testing](entries/2026-10-16-app-store-guideline-2-5-19.md)
 ### `ai-search`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [How Railway grew via AI recommendations (AI SEO)](entries/2026-10-14-railway-ai-seo-playbook.md)
 ### `architecture`
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
@@ -626,14 +674,17 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `config`
 - [Codex memory: swap the default memory models in config](entries/2026-10-13-codex-memory-model-upgrade.md)
 ### `content`
+- [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md)
 ### `credits`
 - [Claude Startups program expands](entries/2026-10-06-claude-startups-program.md)
 ### `design-system`
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
 ### `devices`
 - [Claude Code replaces an ad-heavy Android TV launcher](entries/2026-10-17-claude-code-android-tv-launcher.md)
 ### `diagrams`
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `distillation`
 - [Qwen3.5 9B distilled from Kimi k3 (GGUF)](entries/2026-10-08-qwen3-5-9b-kimi-distill.md)
@@ -657,6 +708,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `harness`
 - [Coding agent harness tier list ('Very important discussion')](entries/2026-10-04-coding-agent-tier-list.md)
 ### `huggingface`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [Cloudflare drops 'clef' on Hugging Face (Apache 2.0)](entries/2026-10-01-cloudflare-clef-hf.md)
 ### `image-editing`
 - [Ideogram 4.5: multi-turn image editing without artifact build-up](entries/2026-09-30-ideogram-4-5-precise-edit.md)
@@ -665,9 +717,11 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `landing-page`
 - [Ask: a dataset of 1-10k beautiful landing pages](entries/2026-10-05-landing-page-dataset-ask.md)
 ### `legal`
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 ### `licensing`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [Hugging Bay: searchable model hub with checksums, torrents and MCP](entries/2026-10-05-hugging-bay-model-hub.md)
 ### `limits`
 - [Codex usage resets can only be used near the limit](entries/2026-10-04-codex-reset-caveat.md)
@@ -683,6 +737,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `model-porting`
 - [ruNNtime: porting new models to the browser with Claude](entries/2026-10-07-ruNNtime-browser-models.md)
 ### `models`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [A benchmark of how models handle pushback: GPT-4o caves, Opus 5.5 digs in](entries/2026-10-19-sycophancy-pushback-benchmark.md)
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
@@ -704,6 +759,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `plugin`
 - [Claude Code built-in plugin: You Should Know](entries/2026-10-02-claude-code-you-should-know-plugin.md)
 ### `privacy`
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
+- [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 ### `promo`
@@ -750,15 +807,20 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `vector`
 - [ChatGPT plugin that vectorizes logos in chat](entries/2026-10-01-chatgpt-logo-vectorize-plugin.md)
 ### `vibe-coding`
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
 - [The ~150-item checklist a vibe-coded app needs before paying customers](entries/2026-10-15-vibe-coded-app-production-checklist.md)
 - ['I may have vibe coded the best thing ever' (video only)](entries/2026-10-03-armand-vibe-coded-setup.md)
 ### `video-gen`
+- [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [FreeVideo: local video generation on 8GB VRAM](entries/2026-10-02-freevideo-local-video-gen.md)
 ### `voice`
 - [NeuDecide: 43 MB speech-to-tool-call model on one CPU thread](entries/2026-10-08-neudecide-audio-tool-calls.md)
 ### `web`
+- [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 ### `web-design`
@@ -800,6 +862,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `plugins`
 - [A roundup of large agent and skill repos for Claude Code (and which are actually Anthropic's)](entries/2026-10-18-agent-and-skill-repo-roundup.md)
 ### `prompt-injection`
+- [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
 ### `email`
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
@@ -818,6 +881,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `github`
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 ### `devops`
+- [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
 ### `vps`
 - [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
@@ -844,3 +908,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
 ### `procedural-generation`
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
+### `accessibility`
+- [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
+- [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
+### `prefetch`
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
+### `prediction`
+- [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
+### `meetings`
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
+### `collaboration`
+- [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
