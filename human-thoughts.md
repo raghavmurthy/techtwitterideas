@@ -221,6 +221,23 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/rajivayyangar/status/2121307488767369691 · 2026-11-13 (UTC)  
 **Why it matters for builders:** When launching an app or game on Product Hunt, letting an agent prepare the listing through the official MCP is a cheap thing to try, though the 3x figure comes from the platform itself without a stated method.
 
+### Open-source the SaaS people resent paying for, then sell hosting
+**Who:** Greg Isenberg (@gregisenberg), CEO of the holding company Late Checkout and host of The Startup Ideas Podcast, per his X bio.  
+**Take:** His post is a four-step playbook, framed as a reminder: find popular SaaS products that people somewhat resent paying for, make a free and open-source version, build an enormous amount of goodwill with it, and then upsell power users to a hosted version, team features and support. He posts it as a quote of Kevin Rose (Digg board member and former Google employee, per his X bio), who said DocuSign wanted $8,100 a year from a 15-person team just to sign PDFs, so he built SignuDoc: open source, one-click deploy to your own Vercel account, no per-seat fees, with white-label branding, audit trails, tamper-evident seals and documents that stay in your own cloud. Greg adds no further argument in the thread; the replies supply the main caveat.
+
+> **@gregisenberg:** Reminder to
+> 1. Find popular saas people kinda hate paying for
+> 2. Make them free and open source
+> 3. Build an insane amount of goodwill
+> 4. Upsell the power users to a hosted version, team features and support
+>
+> **@kevinrose:** DocuSign wants $8,100/yr from a 15-person team just to sign PDFs. So I built SignuDoc: open source, one-click deploy to your own @vercel account, $0 per seat.
+>
+> **@pegwar_aryan:** Step 4 lives or dies on one balance: self-hosting has to be easy enough to try but annoying enough to maintain. Too painful and nobody adopts it. Too easy and nobody upgrades.
+
+**Post:** https://x.com/gregisenberg/status/2122505285885423625 · 2026-11-17 (UTC)  
+**Why it matters for builders:** Agent-built clones make step 2 cheap, so the real work is steps 3 and 4: a hosted tier worth paying for. The same logic applies to dev tools such as asset pipelines or build services that teams already resent paying per seat for.
+
 ## Careers and skills
 
 ### Fear of AI is a sign of having no edge
@@ -244,3 +261,18 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 **Post:** https://x.com/gabriel1/status/2119931744770228388 · 2026-11-09 (UTC)  
 **Why it matters for builders:** When reviewing an early prototype or game concept, ask "what would make this work?" before listing failure modes; critique is cheap, constructive fixes are the scarce input.
+
+### Aimless play is how projects start
+**Who:** Pieter Levels (@levelsio), indie maker known for solo-built products such as Nomad List, Photo AI and a browser flight game, per public reporting; his X bio lists his products with their monthly revenue.  
+**Take:** Quoting economist Noah Smith's observation that many very successful people spent years "bumming around" before suddenly doing something great, he describes a recurring conversation with what he calls "normies": they cannot see what he is working on because he is making random things for fun, and to them it looks like a complete waste of time, with no function, no reward, no money and no success. Yet many of those projects later grow into, or lead to, something with a big payout. His explanation is that most people cannot see that far ahead and are risk-averse, so "maybe this becomes something, maybe not, it doesn't matter" is too uncertain to accept, which is also why they value stable employment. The problem, he says, is that such people quickly shut down this creative play in themselves and, worse, in others, so the thing is killed before it can grow, which then seems to prove them right. Almost all his projects started as messing around with no goal, but that requires a kind of peacefulness: the moment you demand success from something new, it dies, and creativity "messes with you" if you try to control it. In a follow-up he advises people whose partner does not see this to talk it through so the partner understands that aimless tinkering is also important work, and in a reply he clarifies that he does not claim to see far ahead himself, only that he knows random play can lead to good things.
+
+> **@levelsio:** And to them whatever I'm doing looks like a complete and utter waste of time, it has no function, no direct rewards, it's not making money, it's not successful
+>
+> **@levelsio:** But it requires some kind of peacefulness because the moment you start putting a requirement of success on to something new, the thing instantly dies
+>
+> **@levelsio:** Creativity is really magical, and it messes with you if you try control it or expect things from it
+>
+> **@levelsio:** Yep, I mean normies can't see far ahead that random play can lead to good things. I don't mean I can see far ahead specifically either except that I know that
+
+**Post:** https://x.com/levelsio/status/2122656870993129851 · 2026-11-17 (UTC); follow-up https://x.com/levelsio/status/2122667481412116624  
+**Why it matters for builders:** Keep a protected slot for no-goal prototypes (a toy shader, a weird mechanic, a tiny tool) and judge them only after they exist; pressure for results too early is how promising experiments get abandoned.
