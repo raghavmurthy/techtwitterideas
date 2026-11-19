@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**136 entries** · last updated 2026-11-16
+**144 entries** · last updated 2026-11-19
 
 ## Use it as a plugin
 
@@ -29,6 +29,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-18 | [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md) | `pricing` `monetization` `mobile` `app-store` `launch` `agent-workflow` `game-dev` | PPP tiers for store prices, with a unit-cost floor |
+| 2026-11-17 | ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md) | `agent-workflow` `code-quality` `static-analysis` `linting` `testing` `agents-md` `unity` `verification` | Constraints in code, runtime proof, humans last; ~3,000 PRs a month reported |
+| 2026-11-17 | [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md) | `agent-workflow` `claude-code` `linting` `testing` `code-quality` `agents-md` `hooks` `static-analysis` | A plan-mode review that turns CLAUDE.md lines into enforced checks |
+| 2026-11-17 | [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md) | `testing` `skills` `agent-workflow` `code-quality` `refactoring` `claude-code` `unity` | Three categories of useless agent-written tests, and how to rewrite the rest |
+| 2026-11-17 | [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md) | `cost` `tokens` `agents` `caching` `open-source` `compression` `agent-tooling` `observability` | Filter, cache, route and cap; the headline savings are unverified |
+| 2026-11-17 | [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md) | `audio` `music` `game-dev` `unity` `prototyping` `claude` `compression` `sfx` | Tiny custom sample instruments for game audio |
+| 2026-11-17 | [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md) | `security` `checklist` `launch` `vibe-coding` `agent-workflow` `backend` `game-dev` | Access, secrets, data, web and launch checks, then verify by hand |
+| 2026-11-16 | [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md) | `ci` `testing` `performance` `devops` `agent-workflow` `typescript` `linting` `unity` | Diff-scoped tests, time-balanced shards and parallel stages |
 | 2026-11-15 | [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md) | `security` `agents` `coding-agents` `privacy` `devops` `prompt-injection` | Cheap tripwire for agents, plugins or packages reading secrets |
 | 2026-11-15 | [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md) | `legal` `compliance` `launch` `privacy` `vibe-coding` `checklist` `accessibility` `agent-workflow` | SMS consent, labels, fake reviews, biometrics, AI disclosure, privacy policy |
 | 2026-11-14 | [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md) | `local-models` `open-weights` `models` `huggingface` `compression` `licensing` `tts` `music` `video-gen` `asset-pipeline` | Local asset pipeline options; check licences, pick one quant |
@@ -168,6 +176,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 ## By tag
 ### `claude-code`
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
 - [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
@@ -193,6 +203,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 ### `claude`
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
@@ -237,6 +248,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `skills`
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
@@ -256,6 +268,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Emil Kowalski skills: /mobile-native and /break-ui](entries/2026-10-04-emil-kowalski-mobile-native-break-ui.md)
 - [universal-modder: skills + fal MCP so Claude Code can mod PC games](entries/2026-10-01-universal-modder-claude-game-modding.md)
 ### `agents`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 - [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
@@ -277,6 +290,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
 ### `mobile`
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
 - [Seven principles for feature flags at scale on iOS](entries/2026-10-18-ios-feature-flags-principles.md)
@@ -307,6 +321,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Avoiding Apple rejections for 'spam/slop' apps](entries/2026-10-09-apple-app-review-slop-rejections.md)
 - [baguette: browser-based iOS simulators that agents can drive](entries/2026-10-08-baguette-ios-sim-agents.md)
 ### `app-store`
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [Rejected under 2.5.19 for test switches left in a release build](entries/2026-10-18-hidden-test-switches-app-review.md)
 - [The "boring pages" an AI-built app still needs before launch](entries/2026-10-19-legal-pages-before-launch.md)
 - [Checklist for fast App Store approval](entries/2026-10-18-apple-fast-approval-checklist.md)
@@ -323,6 +338,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `launch`
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
@@ -341,17 +358,22 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 - [Decision models on-device in llama.cpp (Kev-4B GGUF)](entries/2026-10-02-kev-4b-llamacpp.md)
 ### `agents-md`
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
 - [Primitives → skills → feature loop against AI slop](entries/2026-10-08-primitives-skills-loop.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `audio`
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 - [10 open-source repos for an AI content pipeline](entries/2026-10-17-open-source-content-factory-repos.md)
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [Sound-design prompt for Opus/Fable motion design](entries/2026-10-09-opus-sound-design-prompt.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `compression`
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
@@ -377,6 +399,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `game-dev`
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
@@ -407,6 +432,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 - [What AI coding subscriptions are worth at API prices](entries/2026-10-01-subscription-vs-api-cost.md)
 ### `testing`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 - [A virtual display on the Mac so a computer-use agent stops taking over your screen](entries/2026-11-09-virtual-display-for-mac-computer-use-agents.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
@@ -451,6 +480,12 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 - [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
@@ -479,6 +514,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Scenario Iso Cycles: Claude Code + Scenario MCP makes 8-direction sprite sheets](entries/2026-10-01-scenario-iso-cycles-mcp-sprites.md)
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 ### `checklist`
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
@@ -496,6 +532,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Codex usage resets can only be used near the limit](entries/2026-10-04-codex-reset-caveat.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `cost`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
@@ -512,6 +549,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Mixar: a team of AI agents that model, texture and light a 3D scene](entries/2026-10-01-mixar-multi-agent-3d.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `open-source`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
@@ -543,6 +581,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Submit sitemaps to Bing Webmaster Tools and IndexNow](entries/2026-10-11-bing-indexnow-sitemap.md)
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 ### `agent-tooling`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [Anthropic donates the Agent Skills standard to the Agentic AI Foundation](entries/2026-10-22-agent-skills-donated-to-aaif.md)
 - [T3 Code impressions: multi-machine, multi-provider agent threads](entries/2026-10-19-t3code-multi-machine-agents.md)
 - [Epic's Unreal Engine skills plugin lets Claude Code drive a running Unreal Editor](entries/2026-10-20-epic-unreal-engine-claude-code-plugin.md)
@@ -568,6 +607,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Build ChatGPT plugins: point Codex at openai/mcp-extensions](entries/2026-10-08-openai-mcp-extensions-chatgpt-plugins.md)
 - [ChatGPT plugin that vectorizes logos in chat](entries/2026-10-01-chatgpt-logo-vectorize-plugin.md)
 ### `ci`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
 - [Solo developer's 50-agent stack: $545k MRR, 1,089 PRs in a week](entries/2026-10-13-solo-dev-50-agent-stack.md)
 - [Anthropic's Scion: source control rebuilt for agent-scale merges](entries/2026-10-13-scion-agent-scale-source-control.md)
 ### `claude-md`
@@ -592,6 +632,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Anthropic's Scion: source control rebuilt for agent-scale merges](entries/2026-10-13-scion-agent-scale-source-control.md)
 - [Railway free Linux VMs with Claude Code/Codex preinstalled](entries/2026-10-10-railway-free-agent-vms.md)
 ### `music`
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - ['I may have vibe coded the best thing ever' (video only)](entries/2026-10-03-armand-vibe-coded-setup.md)
@@ -600,10 +641,12 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Cloudflare drops 'clef' on Hugging Face (Apache 2.0)](entries/2026-10-01-cloudflare-clef-hf.md)
 - [Ideogram 4.5: multi-turn image editing without artifact build-up](entries/2026-09-30-ideogram-4-5-precise-edit.md)
 ### `performance`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
 - [20 speed fixes for vibe-coded apps](entries/2026-10-12-speedmaxxing-vibe-coded-apps.md)
 ### `prototyping`
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
@@ -613,6 +656,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [X research skill + media download for video editing workflows](entries/2026-10-13-x-research-skill-video-workflows.md)
 - [Claude Code hands off X research to GrokBot via a webhook skill](entries/2026-10-11-claude-code-grokbot-handoff.md)
 ### `security`
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 - [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
 - [Phishing emails that target the AI reading your inbox](entries/2026-10-18-email-prompt-injection-ai-assistants.md)
@@ -631,6 +675,10 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [10 open-source repos for voice, music and SFX](entries/2026-10-10-10-open-source-audio-repos.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `unity`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [Rejected under 2.5.19 for test switches left in a release build](entries/2026-10-18-hidden-test-switches-app-review.md)
@@ -659,6 +707,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `browser-games`
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 ### `code-quality`
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
@@ -743,6 +794,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 - [Hugging Bay: searchable model hub with checksums, torrents and MCP](entries/2026-10-05-hugging-bay-model-hub.md)
 ### `monetization`
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [How Block Blast! designs losses around ads](entries/2026-10-15-block-blast-ad-design-breakdown.md)
 ### `motion`
 - [10 resources for AI-assisted 3D and animated web design](entries/2026-10-18-web-3d-design-resource-list.md)
@@ -788,6 +840,8 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `startup-programs`
 - [Claude Startups program expands](entries/2026-10-06-claude-startups-program.md)
 ### `static-analysis`
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 - [How to trust agents' work: the inverse pyramid](entries/2026-10-16-trust-agents-inverse-pyramid.md)
 ### `strategy`
 - [Template 'matrix' shipping: reskinning app templates at scale (Chinese post)](entries/2026-10-01-template-matrix-shipping.md)
@@ -807,6 +861,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `vector`
 - [ChatGPT plugin that vectorizes logos in chat](entries/2026-10-01-chatgpt-logo-vectorize-plugin.md)
 ### `vibe-coding`
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 - [Six more legal checks before launching a vibe-coded app](entries/2026-11-15-six-launch-laws-vibe-coders-miss.md)
 - [The full SEO checklist, written as a joke fix-it prompt for vibe-coded sites](entries/2026-10-30-vibe-coded-site-seo-checklist.md)
 - [Starting a first app today: web prototype first, one flow at a time](entries/2026-10-20-first-app-path-web-prototype-first.md)
@@ -836,6 +891,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `world-models`
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
 ### `sfx`
+- [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [earshot v0.3: 201 code-made sound effects, timed to the exact frame](entries/2026-10-18-earshot-code-made-sound-effects.md)
 ### `cli`
 - [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
@@ -881,6 +937,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `github`
 - [tstack: Theo publishes the agent skills he uses daily](entries/2026-10-26-tstack-published-agent-skills.md)
 ### `devops`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
 - [A passwords.txt honeypot that cuts the network when anything reads it](entries/2026-11-15-passwords-txt-honeypot-exfiltration-killswitch.md)
 - [Take your VPS off the public internet with Tailscale and Cloudflare Tunnel](entries/2026-10-23-vps-tailscale-cloudflare-tunnel.md)
 ### `vps`
@@ -898,6 +955,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `state-machines`
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 ### `refactoring`
+- [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 ### `computer-use`
@@ -919,3 +977,23 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
 ### `collaboration`
 - [Claude Meetings: an assistant that builds docs and whiteboards during the video call](entries/2026-11-12-claude-meetings-live-artifacts-in-calls.md)
+### `pricing`
+- [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
+### `linting`
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
+### `verification`
+- ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
+### `hooks`
+- [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
+### `tokens`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
+### `caching`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
+### `observability`
+- [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
+### `backend`
+- [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
+### `typescript`
+- [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
