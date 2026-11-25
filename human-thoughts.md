@@ -57,6 +57,38 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 **Post:** https://x.com/Prof_Oak_/status/2115185849424048564 · 2026-10-27 (UTC)  
 **Why it matters for builders:** For solo developers the same bet applies: let agents carry the coordination and admin so one person can keep several projects or prototypes moving and spend their own time on judgement calls.
 
+### Consumer-app founders can't delegate key design decisions
+**Who:** Nikita Bier (@nikitabier), former Head of Product at X and founder of tbh (acquired by Meta) and Gas (acquired by Discord), per his X bio.  
+**Take:** He argues that building a consumer app requires near-photographic memory of every decision, every pixel in the app and every data trend. His reasoning has two parts. First, speed of learning: if you delegate key design decisions, you won't recognise new patterns quickly enough to iterate and react to what users need. Second, accountability: you also won't be able to explain those decisions defensibly to regulators, users and the media. He closes that the world moves fast and you need to move faster. He adds nothing further in the thread. Replies split between agreement (great consumer apps feel like one person's taste, committee-built ones feel like settings menus) and the question of whether AI changes this: one asks whether the memory still has to be in the founder's head if an agent can hold every decision searchable, and another argues the point is to delegate the work but not the reasoning behind key product choices.
+
+> **@nikitabier:** When you're building a consumer app, you need near photographic memory of every decision, every pixel on the app, and every data trend.
+>
+> **@nikitabier:** If you delegate key design decisions, you will not be able to understand when new patterns emerge at a sufficient speed to iterate and react to user needs. And you also won't be able to explain those decisions in any defensible way to regulators, users, and the media.
+>
+> **@nikitabier:** The world moves fast; you need to move faster.
+>
+> **@ninomesanovic:** You can delegate the work, but not the reasoning behind key product choices. The leader needs to know which user signal changed the decision, who approved it, and how the result will be checked.
+
+**Post:** https://x.com/nikitabier/status/2124036566511472763 · 2026-11-21 (UTC)  
+**Why it matters for builders:** When agents generate screens and features, it is easy to ship decisions nobody consciously made; keeping a short log of each design decision and the user signal behind it preserves the founder-level memory he describes.
+
+### 64 startup opportunities for the AI era, in two lists
+**Who:** Greg Isenberg (@gregisenberg), CEO of the holding company Late Checkout and host of The Startup Ideas Podcast, per his X bio.  
+**Take:** Across two posts two days apart he lists what he calls the biggest opportunities right now, 41 in the first and 23 more in the second, each a "build for…" line with a one-sentence reason. The common thread is that as AI floods everything with generated content and makes building cheap, value moves to what AI can't fake or does badly. Grouped, his claims are: (1) **human connection and the physical world:** loneliness, small social and private rooms, no-camera places, third places, run clubs and saunas, adult summer camps, maker workshops, sober nightlife, live experiences "you can't fake or stream", safe offline hangouts for teens, and a return to the analog and the local; (2) **trust and accountability:** one trusted source when any point can be "proven", skin in the game with real names or money, people who will push back, a human "on the hook" who signs off (90% automated, 10% human), and charging for completion instead of access; (3) **AI-native products and infrastructure:** life after the chat box with agents working proactively in the background, spend controls for agents with money, an undo button for agents with inbox or bank access, agents that sit on hold for you, private on-premise AI for hospitals, law firms and defence contractors, and day-2 software (keeping a weekend-built app alive for three years); (4) **new markets AI makes viable:** throwaway single-use apps, software you own instead of rent, markets too small to matter before, hyper-local news run by one person, programmatic free tools instead of blog posts, automated ad-creative testing, trigger-based cold outreach, AI-assisted government contracts, and micro-franchise entertainment worlds for 10,000 superfans; (5) **people and life stages:** young men's crisis, bruised egos of knowledge workers, caregiving, living alone, people who can't retire, marriages, pets, attention spans, gambling, blue-collar trades, kids learning to think, and modern rites of passage. He ends the second list by saying people will call it a bad time to be building and that he disagrees. Both posts include a plug for his own companies.
+
+> **@gregisenberg:** 6. build for day 2, not day 0. Anyone can launch an app in a weekend now. But how can you keep it running, fix the mess, and grow it for 3 years.
+>
+> **@gregisenberg:** 15. build for life after the chat box. Typing prompts already feels old. The best AI products won't look like chatbots at all, they'll just sit in the background and proactively handle things.
+>
+> **@gregisenberg:** 37. build for the "undo" button for agents. Giving an AI access to your inbox, calendar, or bank account is still terrifying. Whoever makes it safe to let go of the wheel wins.
+>
+> **@gregisenberg:** [second list] 20. build for micro-franchises in entertainment (instead of spending $200M to make one movie for everyone, use AI tools to build deep, interactive worlds, games, and shows for 10,000 obsessive superfans)
+>
+> **@gregisenberg:** [second list] 8. build for live experiences you can't fake or stream. When any video can be generated in 5 seconds, being in the actual room. weird live sports, underground shows, real world tournaments... it becomes the last uncopyable media asset IMO.
+
+**Post:** https://x.com/gregisenberg/status/2123906584531304944 · 2026-11-20 (UTC); second list https://x.com/gregisenberg/status/2124292261479321960 (2026-11-22)  
+**Why it matters for builders:** Several items point at small teams with AI tools: deep interactive worlds for a narrow superfan base, calm and focus products for overstimulated people, and safety layers for agents; they are opinions and pitches, not market data.
+
 ## Agent workflow
 
 ### Make your repo easier for agents to navigate
@@ -135,6 +167,23 @@ Opinions and takes from notable public people on X. These are **opinions, not fa
 
 **Post:** https://x.com/rauchg/status/2119878364794372162 · 2026-11-09 (UTC)  
 **Why it matters for builders:** If agents can run many tasks at once, local hardware and human review become the limits; isolated sandboxes per task and a plan for reviewing the results matter more than clever prompts.
+
+### Engineering is turning into verification
+**Who:** Vincent Koc (@vincent_koc), Chief Architect at OpenClaw, Forbes Technology Council writer, MIT adjunct and formerly at Microsoft and Qantas, per his X bio.  
+**Take:** He names the emerging roles as verification engineers, proof engineers and state engineers, and argues that engineering is turning into knowing when things are done right: a return to formal verification, eval verifiers and "less vibes", which he calls going back to basics. He posts it as a quote of a clip of Shopify CEO Tobi Lütke at Vercel Ship SF saying "we are now all verification engineers", building harnesses, acceptance tests and verifiables; the quoted post sums it up as the work moving to the checks when agents write the code. Asked in replies whether this is an argument for Rust, he says it could be and predicts verifiable code will be "the rage in 2027". Replies add the main caveat: if the same agent writes both the code and its acceptance tests, the tests can encode the bug, so verifiers need independent authorship and protection from the agent.
+
+> **@vincent_koc:** Verification Engineers, Proof Engineers, State Engineers...
+>
+> **@vincent_koc:** Engineering is turning into knowing when things are done right. Back to the world of formal verification, eval verifiers and less vibes.
+>
+> **@vincent_koc:** Could be. Verifable code is going to be the rage in 2027
+>
+> **@DarlingtonDev:** Tobi Lütke (@tobi), Shopify CEO, at Vercel Ship SF: "we are now all verification engineers. We are building harnesses, we are building acceptance tests, and we are building… verifiables."
+>
+> **@DMAE977:** The catch: if the agent writes both the implementation and the acceptance test, the test encodes the bug. Author acceptance from the spec before the code, freeze tests in a CODEOWNERS path, run the harness from base HEAD.
+
+**Post:** https://x.com/vincent_koc/status/2122544377511956702 · 2026-11-17 (UTC); follow-up reply https://x.com/vincent_koc/status/2123265246647431324  
+**Why it matters for builders:** With agents writing most code, the durable skill is defining "done" in checks a machine can run (acceptance tests, play-mode tests, performance budgets) and keeping those checks out of the agent's reach.
 
 ## Cost and tooling
 

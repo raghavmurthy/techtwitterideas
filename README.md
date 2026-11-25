@@ -6,7 +6,7 @@ Curated notes on AI, 3D and developer-tool ideas from public posts. Each entry c
 - `human-thoughts.md` — opinions from notable public people on X, grouped by theme (opinions, not facts)
 - `processed.json` — every URL turned into an entry or a take, so future runs skip it
 
-**144 entries** · last updated 2026-11-19
+**149 entries** · last updated 2026-11-25
 
 ## Use it as a plugin
 
@@ -29,7 +29,12 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 | Date | Title | Tags | Why it matters |
 |---|---|---|---|
+| 2026-11-19 | [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md) | `blender` `geometry-nodes` `procedural` `claude-code` `agent-workflow` `cost` `tokens` `verification` `3d` | Where agent 3D work breaks: false "done" reports caught only by looking |
+| 2026-11-19 | [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md) | `rwkv` `rnn` `small-models` `on-device` `personalization` `compression` `ml` `learning` | Tiny per-user sequence models with size tiers for on-device adaptation |
+| 2026-11-19 | [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md) | `code-quality` `refactoring` `agents-md` `style-guide` `agent-workflow` `performance` `c` `cuda` `reinforcement-learning` | A short house-rules file that pushes agents away from abstraction bloat |
 | 2026-11-18 | [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md) | `pricing` `monetization` `mobile` `app-store` `launch` `agent-workflow` `game-dev` | PPP tiers for store prices, with a unit-cost floor |
+| 2026-11-18 | [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md) | `ui` `design` `skills` `agent-workflow` `copywriting` `open-source` `game-ui` | A rule-by-rule pass that removes agent UI tells |
+| 2026-11-18 | [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md) | `growth` `virality` `launch` `consumer-apps` `distribution` `marketing` `mobile` `game-dev` | Test, don't launch; tiny obsessive wedges; design for sharing |
 | 2026-11-17 | ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md) | `agent-workflow` `code-quality` `static-analysis` `linting` `testing` `agents-md` `unity` `verification` | Constraints in code, runtime proof, humans last; ~3,000 PRs a month reported |
 | 2026-11-17 | [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md) | `agent-workflow` `claude-code` `linting` `testing` `code-quality` `agents-md` `hooks` `static-analysis` | A plan-mode review that turns CLAUDE.md lines into enforced checks |
 | 2026-11-17 | [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md) | `testing` `skills` `agent-workflow` `code-quality` `refactoring` `claude-code` `unity` | Three categories of useless agent-written tests, and how to rewrite the rest |
@@ -176,6 +181,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 
 ## By tag
 ### `claude-code`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
 - [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
 - [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
@@ -222,6 +228,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Claude app: design/deck/doc work uses 50% less usage for two weeks](entries/2026-10-01-claude-design-usage-promo.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `marketing`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
 - [Analysing 4.5M TikToks: viral UGC isn't luck, and it isn't the format](entries/2026-10-20-tiktok-ugc-virality-analysis.md)
@@ -248,6 +255,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [OpenCut: open-source CapCut alternative with an MCP server](entries/2026-10-01-opencut-open-source-capcut.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `skills`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
 - [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
 - [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
@@ -290,6 +298,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [SEO: agent-assisted backlink outreach](entries/2026-10-07-agent-backlink-outreach.md)
 - [Graphical: design visual languages and style components for coding agents](entries/2026-10-05-graphical-visual-language-tool.md)
 ### `mobile`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
 - [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
@@ -330,6 +339,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Avoiding Apple rejections for 'spam/slop' apps](entries/2026-10-09-apple-app-review-slop-rejections.md)
 ### `blender`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - [Genex 0.1.10: an open-source desktop app for making games with any AI, now on Windows](entries/2026-10-19-genex-open-source-ai-game-maker.md)
 - [CLI-Anything: wrap desktop apps like Blender and GIMP as CLIs agents can drive](entries/2026-10-15-cli-anything-desktop-apps-for-agents.md)
 - [The Little Prince as a 3D story game in 16 days with Opus, Tripo and Blender](entries/2026-10-13-little-prince-3d-story-game.md)
@@ -338,6 +348,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Pixel Match: local image-to-3D that keeps source pixels after retopo](entries/2026-09-30-pixel-match-image-to-3d.md)
 - [Blender Bench v1: frontier LLMs on 20 real Blender workflows](entries/2026-09-30-blender-bench-v1.md)
 ### `launch`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
 - [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 - [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
 - [An SEO and AI-search (GEO) playbook distilled from 66 articles, 48 skills and 14 repos](entries/2026-11-10-seo-geo-playbook-from-66-articles.md)
@@ -352,12 +363,14 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Avoiding Apple rejections for 'spam/slop' apps](entries/2026-10-09-apple-app-review-slop-rejections.md)
 - [6 legal traps in AI-built apps (COPPA, GDPR fonts, CIPA, CAN-SPAM)](entries/2026-10-06-vibe-coded-app-legal-traps.md)
 ### `on-device`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
 - [Tencent Hy-MT2: 440 MB offline translator, 33 languages (Turkish post)](entries/2026-10-08-tencent-hy-mt2-offline-translator.md)
 - [NeuDecide: 43 MB speech-to-tool-call model on one CPU thread](entries/2026-10-08-neudecide-audio-tool-calls.md)
 - [ruNNtime: porting new models to the browser with Claude](entries/2026-10-07-ruNNtime-browser-models.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 - [Decision models on-device in llama.cpp (Kev-4B GGUF)](entries/2026-10-02-kev-4b-llamacpp.md)
 ### `agents-md`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
 - [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
 - ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
@@ -372,6 +385,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Sound-design prompt for Opus/Fable motion design](entries/2026-10-09-opus-sound-design-prompt.md)
 - [Paradee: Kokoro TTS distilled to 8M params (9 MB)](entries/2026-10-07-paradee-8m-tts.md)
 ### `compression`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
 - [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [A 24-model local AI pack: open LLMs, image, video, voice and music weights to keep on disk](entries/2026-11-14-local-open-model-archive-24-models.md)
@@ -387,6 +401,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Leviathan: agents search huge databases in ~436 tokens](entries/2026-10-05-leviathan-agent-indexer.md)
 - [Matt Pocock: /retro your agent sessions to make the repo easier to navigate](entries/2026-10-02-retro-repo-navigability.md)
 ### `design`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
 - [Skill Issue: agent skills ranked by what people actually use](entries/2026-10-19-skill-issue-ranked-agent-skills.md)
 - [Design inspiration sites, including DESIGN.md files for agents](entries/2026-10-17-ai-design-inspiration-sites.md)
 - [Ask: a dataset of 1-10k beautiful landing pages](entries/2026-10-05-landing-page-dataset-ask.md)
@@ -399,6 +414,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Prompt: output architecture as a C4 model in HTML (Japanese)](entries/2026-10-10-c4-architecture-html-prompt.md)
 - [oh-my-mermaid: architecture diagrams from a codebase via Claude Code](entries/2026-10-08-oh-my-mermaid-architecture-diagrams.md)
 ### `game-dev`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
 - [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 - [Playing any song with 64 clips of one person's voice, built with an AI coding model](entries/2026-11-17-voice-note-sampler-64-clips.md)
 - [Localising app subscription prices by purchasing power, with an agent doing the tier maths](entries/2026-11-18-ppp-localized-app-store-pricing.md)
@@ -451,6 +467,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [475 Claude Opus 5.5 demo videos with prompts in one repo](entries/2026-10-03-475-opus-video-demos-repo.md)
 - [Opus 5.5 builds a Three.js night-city game with Blender + image-gen](entries/2026-10-02-opus-threejs-city-game.md)
 ### `ui`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
 - [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [A Claude skill that turns an SVG into a 60 fps animation](entries/2026-10-22-svg-to-60fps-motion-skill.md)
@@ -465,6 +482,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Launch video from HTML + GSAP rendered by HyperFrames](entries/2026-10-08-hyperframes-launch-video.md)
 - [20 repos for agent-made motion design (claude-motion, HyperFrames, Remotion, GSAP)](entries/2026-10-08-20-motion-design-repos.md)
 ### `3d`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [DeepSeek V4.1 Flash vs Opus 5.5 on a one-prompt 3D Bowser test: $0.15 vs $3.85](entries/2026-10-17-deepseek-flash-vs-opus-bowser-3d.md)
 - [SKY-001: a world model that plans CAD and BIM builds part by part](entries/2026-10-19-sky-001-engineering-world-model.md)
@@ -480,6 +498,9 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Apple Search Ads playbook for indie apps](entries/2026-10-13-apple-search-ads-playbook.md)
 - [Don't report instantly cancelled trials to Meta](entries/2026-10-12-meta-ads-filter-instant-cancels.md)
 ### `agent-workflow`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
 - [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 - [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
@@ -532,6 +553,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Codex usage resets can only be used near the limit](entries/2026-10-04-codex-reset-caveat.md)
 - [AGENTS.md that stops agents over-engineering](entries/2026-10-04-agents-md-simplest-code.md)
 ### `cost`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [A small FPS built from scratch by one model in 8 hours for about $550](entries/2026-11-09-one-prompt-fps-fable-5-2-550-dollars.md)
 - [Overnight agent runs: skip subagents to save usage](entries/2026-10-23-skip-subagents-overnight.md)
@@ -549,6 +571,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Mixar: a team of AI agents that model, texture and light a 3D scene](entries/2026-10-01-mixar-multi-agent-3d.md)
 - [Opus 5.5 prompting tips from Anthropic's guide (summary)](entries/2026-09-28-opus-5-5-prompting-tips.md)
 ### `open-source`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
 - [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 - [Vercel's UI SDK: accessible behaviours as primitives, for agents to compose into components](entries/2026-11-12-vercel-ui-sdk-behaviors-for-agents.md)
 - [Scarlet: an open-source AI video editor driven by Claude Code or Codex](entries/2026-11-13-scarlet-open-source-ai-video-editor.md)
@@ -626,6 +649,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Concept art to playable 3D world via blockout + painted projection](entries/2026-10-17-concept-art-to-playable-3d.md)
 - [Ideogram 4.5: multi-turn image editing without artifact build-up](entries/2026-09-30-ideogram-4-5-precise-edit.md)
 ### `distribution`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
 - [Google Play lets you install private vibe-coded apps](entries/2026-10-13-google-play-private-vibe-coded-apps.md)
 - [Build ChatGPT plugins: point Codex at openai/mcp-extensions](entries/2026-10-08-openai-mcp-extensions-chatgpt-plugins.md)
 ### `infra`
@@ -641,6 +665,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Cloudflare drops 'clef' on Hugging Face (Apache 2.0)](entries/2026-10-01-cloudflare-clef-hf.md)
 - [Ideogram 4.5: multi-turn image editing without artifact build-up](entries/2026-09-30-ideogram-4-5-precise-edit.md)
 ### `performance`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
 - [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
 - [Predicting the next click from pointer velocity, then prefetching on it](entries/2026-11-13-pointer-velocity-click-prediction-prefetch.md)
 - [Have subagents audit 20 web performance issues](entries/2026-10-13-perf-audit-subagents.md)
@@ -707,6 +732,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `browser-games`
 - [Gemini 4 Argon builds a Subway Surfers-style flying runner](entries/2026-10-16-gemini-flying-roadster-runner.md)
 ### `code-quality`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
 - [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
 - [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
 - ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
@@ -754,6 +780,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `google-play`
 - [Google Play lets you install private vibe-coded apps](entries/2026-10-13-google-play-private-vibe-coded-apps.md)
 ### `growth`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
 - [Analysing 4.5M TikToks: viral UGC isn't luck, and it isn't the format](entries/2026-10-20-tiktok-ugc-virality-analysis.md)
 - [How Railway grew via AI recommendations (AI SEO)](entries/2026-10-14-railway-ai-seo-playbook.md)
 ### `harness`
@@ -955,6 +982,7 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 ### `state-machines`
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
 ### `refactoring`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
 - [prune-tests: an agent skill that deletes tests guarding no real behaviour](entries/2026-11-17-prune-tests-skill.md)
 - [Tell the model the codebase is its own: Anthropic's ownership tip for Fable 5.2](entries/2026-11-10-fable-5-2-ownership-prompt-codebase-is-yours.md)
 - [Two codebase audit prompts: implicit state machines and unenforced invariants](entries/2026-11-07-audit-prompts-implicit-state-machines-invariants.md)
@@ -984,10 +1012,12 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
 - [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
 ### `verification`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - ["All Code Is Slop (Except Mine)": a recap of Lauren Tan's talk on agents merging thousands of PRs](entries/2026-11-17-all-code-is-slop-lauren-tan-talk-recap.md)
 ### `hooks`
 - [Mining 60 days of agent PRs to turn repeat mistakes into types, lint rules and tests](entries/2026-11-17-repeat-agent-mistakes-into-lint-rules.md)
 ### `tokens`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
 - [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
 ### `caching`
 - [20 open-source repos for cutting what an agent swarm burns in tokens](entries/2026-11-17-twenty-repos-to-cut-agent-token-costs.md)
@@ -997,3 +1027,35 @@ Then run `/techtwitterideas` or ask "what's out there for X".
 - [A 25-point security brief to give a coding agent before shipping a vibe-coded app](entries/2026-11-17-pre-ship-security-brief-for-coding-agents.md)
 ### `typescript`
 - [Cutting CI from 37 minutes to about 3: a five-step recipe an agent can apply overnight](entries/2026-11-16-frontend-ci-37-to-3-minutes.md)
+### `geometry-nodes`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
+### `procedural`
+- [Two weeks, 3,958 prompts and ~8.9B tokens: a logged case study of AI agents building a procedural Blender fruit add-on](entries/2026-11-19-claude-code-blender-strawberry-study.md)
+### `rwkv`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
+### `rnn`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
+### `small-models`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
+### `personalization`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
+### `ml`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
+### `learning`
+- [An RWKV model that predicts recall directly, as an experimental Anki scheduler](entries/2026-11-19-rwkv-anki-scheduler.md)
+### `style-guide`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
+### `c`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
+### `cuda`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
+### `reinforcement-learning`
+- [SKILL_ISSUES.md: PufferLib's hand-written refactoring and style guide, written for humans and LLMs](entries/2026-11-19-pufferlib-skill-issues-style-guide.md)
+### `copywriting`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
+### `game-ui`
+- [unslop-ui: an agent skill that strips the "AI look" out of interface and chart copy](entries/2026-11-18-unslop-ui-skill.md)
+### `virality`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
+### `consumer-apps`
+- [A one-page summary of Nikita Bier's advice on making consumer apps go viral](entries/2026-11-18-nikita-bier-virality-one-pager.md)
